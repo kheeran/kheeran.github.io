@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Kheeran Naidu # add your name
 author-img: kheeran.jpg # add your photo
-about-author: A PhD student under the supervision of Dr. Christian Konrad at the University of Bristol. My current research interest is in the design, analysis and limitations of streaming algorithms for graphs. # add description
+about-author: A PhD student under the supervision of Dr Christian Konrad at the University of Bristol. My current research interest is in the design, analysis and limitations of streaming algorithms for massive graphs. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: kheeran # add your Github handle
