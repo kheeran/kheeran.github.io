@@ -6,7 +6,8 @@
   <div class="wrapper">
     {{ content }}
   </div>
-  
+  {% if site.analytics %}
   {% include analytics.html %}
+  {% endif %}
 </body>
 </html>
