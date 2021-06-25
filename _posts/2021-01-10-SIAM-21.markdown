@@ -1,0 +1,10 @@
+---
+layout: post
+
+title: 32nd ACM-SIAM Symposium on Discrete Algorithms (SODA)
+year: 2021
+subtitle: Virtual
+description: Attendee (jointly with ALENEX, SOSA and APOCS)
+link: False
+tags: [Events]
+---
