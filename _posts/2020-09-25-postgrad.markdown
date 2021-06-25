@@ -1,0 +1,10 @@
+---
+layout: post
+
+title: PhD in Computer Science
+year: 2020-present
+subtitle: Algorithms and Complexity Group, University of Bristol
+description: Supervised by <a href="http://people.cs.bris.ac.uk/~konrad/" target="_blank">Dr Christian Konrad</a>
+link: False
+tags: [Education]
+---
