@@ -1212,6 +1212,14 @@ a.newer-posts:hover {
   line-height: 1.3;
 }
 
+.header-page .page-subtitle {
+  color: #a0a0a0;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
 .header-page .page-date {
   color: #a0a0a0;
   font-weight: 300;
@@ -1219,11 +1227,10 @@ a.newer-posts:hover {
   text-transform: uppercase;
 }
 
-.header-page .page-subtitle {
+.header-page .page-info {
   color: #a0a0a0;
   font-weight: 300;
-  font-size: 15px;
-  margin-bottom: 5px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -1277,7 +1284,6 @@ a.newer-posts:hover {
 
 .page-block-end .copyright p{
   font-size: small;
-  margin: 0;
 }
 
 .page-share {
@@ -1477,9 +1483,6 @@ a.newer-posts:hover {
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-  }
-  .contact-title, .copyright {
-    display: none;
   }
 }
 

@@ -5,6 +5,6 @@ title: COMSM0068 Advanced Topics in Theoretical Computer Science
 year: 2020-2021
 subtitle: University of Bristol
 description: Postgraduate Teaching Assistant
-link: False
+info: https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=20%2F21&unitCode=COMSM0069
 tags: [Teaching]
 ---

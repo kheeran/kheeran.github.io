@@ -5,7 +5,7 @@ title: COMS12200 Introduction to Computer Architecture
 year: 2018-2019
 subtitle: University of Bristol
 description: Undergraduate Teaching Assistant
-link: False
+info: https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMS12200
 tags: [Teaching]
 hidden: True
 ---

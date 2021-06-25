@@ -5,7 +5,7 @@ title: COMS10003 Mathematical Methods for Computer Scientists
 year: 2018-2020
 subtitle: University of Bristol
 description: Undergraduate Teaching Assistant
-link: False
+info: https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMS10003
 tags: [Teaching]
 hidden: True
 ---

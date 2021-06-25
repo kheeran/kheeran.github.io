@@ -11,7 +11,7 @@ layout: main
   {% unless post.hidden %}
   <section class="blog-tags">
     <div class="tag-list">      
-      <span><small>{{ post.year}}</small> | <em>{% if post.link %}<a href="{{ post.link }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</span></em><br>
+      <span><small>{{ post.year}}</small> | <em>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</em>{% if post.info %}  &nbsp;  <small><a href="{{ post.info }}" target="_blank"><i class="fa fa-info"></i></a></small>{% endif %}</span><br>
       <span>{{ post.subtitle}}</span>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}" style="float: right;"><i class="fa fa-ellipsis-h"></i></a>{% endif %}<br>
       <small><span><em>{{ post.description}}</em></span></small>
     </div>

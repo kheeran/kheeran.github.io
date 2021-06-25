@@ -5,6 +5,6 @@ title: PhD in Computer Science
 year: 2020-present
 subtitle: Algorithms and Complexity Group, University of Bristol
 description: Supervised by <a href="http://www.christiankonrad.de/" target="_blank">Dr Christian Konrad</a>
-link: False
+info: http://www.bristol.ac.uk/study/postgraduate/2020/eng/phd-computer-science/
 tags: [Education]
 ---
