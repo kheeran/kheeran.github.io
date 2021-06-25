@@ -5,18 +5,19 @@ layout: main
 {% assign tag_words = site_tags | split:',' | sort %}
 
 {% for this_word in tag_words %}
-<section style="width: 100%;">
+<div style="width: 100%;">
   <h2>{{ this_word }}</h2>
   {% for post in site.tags[this_word] %}{% if post.title != null %}
   {% unless post.hidden %}
   <section class="blog-tags">
-    <div class="tag-list">
-      <span>{{ post.year}} | </span><span>{% if post.link %}<a href="{{ post.link }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</span><br>
-      <span>{{ post.subtitle}}</span><br>
-      <small><em>{{ post.description}}</em></small>
+    <div class="tag-list">      
+      <span><small>{{ post.year}}</small> | <em>{% if post.link %}<a href="{{ post.link }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</span></em><br>
+      <span>{{ post.subtitle}}</span>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}" style="float: right;"><i class="fa fa-ellipsis-h"></i></a>{% endif %}<br>
+      <small><span><em>{{ post.description}}</em></span></small>
     </div>
+    &nbsp;
   </section>
   {% endunless %}
   {% endif %}{% endfor %}
-</section>
+</div>
 {% endfor %}
