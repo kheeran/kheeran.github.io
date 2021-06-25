@@ -23,6 +23,8 @@ analytics: False # add Google Analytics Track ID
 
 # Build Settings
 markdown: kramdown
+kramdown:
+  math_engine: katex
 plugins:
   - jekyll-sitemap
   - jekyll-paginate

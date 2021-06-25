@@ -1258,7 +1258,7 @@ a.newer-posts:hover {
   height: 100%;
 }
 
-.page-footer {
+.page-block-end {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1275,12 +1275,17 @@ a.newer-posts:hover {
   border-bottom: 1px solid #a0a0a0;
 }
 
-.page-footer .page-share {
+.page-block-end .copyright p{
+  font-size: small;
+  margin: 0;
+}
+
+.page-share {
   margin-bottom: 10px;
   text-align: left;
 }
 
-.page-footer .page-share a {
+.page-share a {
   display: inline-block;
   text-decoration: none;
   background-color: #fafafa;
@@ -1294,15 +1299,15 @@ a.newer-posts:hover {
   transition: background-color .3s;
 }
 
-.page-footer .page-share a:first-child {
+.page-share a:first-child {
   margin-left: 0;
 }
 
-.page-footer .page-share a:hover {
+.page-share a:hover {
   background-color: #ecf0f1;
 }
 
-.page-footer .page-tag a {
+.page-tag a {
   text-decoration: none;
   font-size: 10px;
   padding: 5px 10px;
@@ -1312,7 +1317,7 @@ a.newer-posts:hover {
   border: 1px solid #263959;
 }
 
-.page-footer .page-tag a:hover {
+.page-tag a:hover {
   text-decoration: underline;
 }
 

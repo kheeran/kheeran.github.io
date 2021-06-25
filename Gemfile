@@ -7,3 +7,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jemoji"
 end
+
+gem "kramdown-math-katex", "~> 1.0"
