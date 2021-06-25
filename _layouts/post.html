@@ -28,7 +28,7 @@ layout: main
           </div>
           <div class="page-tag">
             {% for tag in page.tags %}
-              <a href="{{site.baseurl}}/overview#{{tag}}" class="tag">&#35; {{ tag }}</a>
+              <a href="{{site.baseurl}}/tags/#{{tag}}" class="tag">&#35; {{ tag }}</a>
             {% endfor %}
           </div>
         </div>
@@ -38,7 +38,7 @@ layout: main
       <div class="page-block-end">
         <div class="page-tag" style="padding-right: 30px;">
         {% if page.attachments %}
-        <span><strong>Attachments</strong> | </span>
+        <span id="Attachments"><strong>Attachments</strong> | </span>
         {% for attachment in page.attachments %}
           <a href="{{site.baseurl}}/assets/attachments/{{attachment}}" target="_blank" class="tag">{{ attachment }}</a>
         {% endfor %}

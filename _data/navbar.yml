@@ -1,0 +1,8 @@
+Home:
+  name: Home
+  icon: fa fa-home
+  link: ""
+All Tags:
+  name: All Tags
+  icon: fa fa-tags
+  link: tags/

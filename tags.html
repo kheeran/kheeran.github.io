@@ -20,7 +20,15 @@ permalink: False
 <!--  lists all posts corresponding to specific tag...-->
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <div class="tag-list">
-        <span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} | </a><small>{{ post.date | date: '%b %Y' }}</span></small>
+        <span>
+          {% if post.content.size > 1 %}
+          <small><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-file-text-o"></i></a></small>
+          &nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+          {% else %}
+          {{ post.title }}
+          {% endif %}
+          | <small>{{ post.date | date: '%b %Y' }}</small>
+        </span>
     </div>
     {% endif %}{% endfor %}
   {% endfor %}

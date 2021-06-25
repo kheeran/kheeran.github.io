@@ -6,5 +6,5 @@ year: 2021
 subtitle: Virtual
 description: Attendee (jointly with ALENEX, SOSA and APOCS)
 info: https://www.siam.org/conferences/cm/conference/soda21
-tags: [Events]
+tags: [Events, Attendee]
 ---

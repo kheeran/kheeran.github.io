@@ -1,13 +1,13 @@
 ---
 layout: post
 
-title: 37th British Colloquium for Theoretical Computer Science
+title: 37th British Colloquium for Theoretical Computer Science (BCTCS)
 year: 2021
 subtitle: Virtual, University of Liverpool
 description: Presenter and Attendee
 info: https://intranet.csc.liv.ac.uk/~bctcs2021/
-tags: [Events]
-usemathjax: true
+tags: [Events, Attendee, Presenter]
+latex: true
 attachments: [BCTCS-21.pdf]
 ---
 My talk at the colloquium was on the following:
