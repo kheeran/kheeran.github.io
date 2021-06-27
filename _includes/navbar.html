@@ -1,7 +1,7 @@
 <div class="navbar">
-    <div class="page-tag">
+    <div class="navbar-items">
         {% for nav in site.data.navbar %}
-            <a href="{{site.baseurl}}/{{ nav[1].link }}" class="tag"><i class="{{ nav[1].icon }}"></i> &nbsp; {{ nav[1].name }}</a>
+            <a href="{{site.baseurl}}/{{ nav[1].link }}"><i class="{{ nav[1].icon }}"></i> &nbsp; {{ nav[1].name }}</a>
         {% endfor %}
     </div>
 </div>

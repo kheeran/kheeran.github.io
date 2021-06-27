@@ -1,0 +1,27 @@
+---
+layout: main
+---
+<section class="blog-tags">
+<h2>{{ page.tag }}</h2>
+
+{% for post in paginator.posts %}
+<article class="post">
+  {% if post.img %}
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+  {% else %}
+  {% endif %}
+  <div class="post-content">
+    <span class="post-date">{{post.year}}</span> | <span class="post-words">{{ post.subtitle}}</span>
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+  </div>
+  <div class="post-tag">
+    {% for tag in post.tags %}
+      <a href="{{site.baseurl}}/tag/{{ tag | cgi_escape }}" class="tag"><i class="fa fa-tag"></i> &nbsp; {{ tag }}</a>
+    {% endfor %}
+  </div>
+</article>
+{% endfor %}
+
+{% include pagination.html %}
+</section>

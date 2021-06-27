@@ -8,10 +8,12 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Kheeran Naidu # add your name
 author-img: kheeran.jpg # add your photo
-about-author: A PhD student under the supervision of Dr Christian Konrad at the University of Bristol. My current research interest is in the design, analysis and limitations of streaming algorithms for massive graphs. # add description
+about-author: My current research interest is in the design, analysis and limitations of streaming algorithms for massive graphs. # add description
+position: PhD in Computer Science
+location: Algorithms and Complexity Group, University of Bristol
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: kheeran # add your Github handle
+social-github: # add your Github handle
 social-linkedin: kheeran # add your Linkedin handle
 social-email: kheeran.naidu@bristol.ac.uk # add your Email address
 
@@ -30,7 +32,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
+paginate: 5
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
