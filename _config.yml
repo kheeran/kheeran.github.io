@@ -21,7 +21,7 @@ social-email: kheeran.naidu@bristol.ac.uk # add your Email address
 disqus-identifier: False # add your discus identifier
 
 # Tracker
-analytics: False # add Google Analytics Track ID
+analytics: G-HQQKSWN6NC # add Google Analytics Track ID
 
 # Build Settings
 markdown: kramdown

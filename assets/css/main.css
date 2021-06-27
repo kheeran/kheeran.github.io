@@ -1517,7 +1517,7 @@ a.newer-posts:hover {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px), only screen and (max-height: 600px) {
   .sidebar {
     position: relative;
     display: -webkit-box;
