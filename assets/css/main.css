@@ -770,9 +770,11 @@ template {
 
 html {
   line-height: 1.5;
+  /* height: 100%; */
 }
 
 body {
+  /* height: 100%; */
   font-family: 'Lato', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
@@ -886,7 +888,9 @@ table tfoot td {
 .wrapper {
   max-width: 1400px;
   position: relative;
+  height: 100%;
 }
+
 
 .post, .article-page {
   background-color: #fff;
@@ -931,7 +935,7 @@ table tfoot td {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 320px;
+  width: 340px;
   height: 100%;
   padding: 20px;
   background-color: #ffffff;
@@ -1041,8 +1045,10 @@ table tfoot td {
 
 .content-box {
   padding: 20px;
-  padding-left: 360px;
+  padding-left: 380px;
   padding-right: 40px;
+  /* background-color: #fbfbfb; */
+  height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1393,7 +1399,8 @@ a.newer-posts:hover {
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
-  width: 100%;
+  width: 950px;
+  margin: auto;
   padding: 0 20px 20px;
 }
 
@@ -1506,6 +1513,7 @@ a.newer-posts:hover {
   .content-box {
     padding-left: 280px;
     padding-right: 30px;
+    align-items: center;
   }
 
   .sidebar {
@@ -1517,7 +1525,7 @@ a.newer-posts:hover {
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px), only screen and (max-height: 600px) {
+@media only screen and (max-width: 768px), only screen and (max-height: 575px) {
   .sidebar {
     position: relative;
     display: -webkit-box;
