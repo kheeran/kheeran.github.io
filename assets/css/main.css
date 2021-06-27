@@ -1001,10 +1001,43 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+.about p a {
+  text-decoration: none;
+  color: #263959;
+}
+
+.about p a:hover {
+  text-decoration: underline;
+}
+
+.post-tag a:hover {
+  text-decoration: underline;
+}
+
 .navbar {
   padding: 20px;
   text-align: center;
 }
+
+.navbar-items {
+  line-height: 2;
+}
+
+.navbar-items a {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: #263959;
+  text-transform: uppercase;
+  border: 1px solid #263959;
+  white-space:nowrap;
+}
+
+.navbar-items a:hover {
+  text-decoration: underline;
+}
+
 
 .content-box {
   padding: 20px;
@@ -1115,11 +1148,11 @@ footer .copyright {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
@@ -1154,7 +1187,7 @@ footer .copyright {
 
 .post .post-content {
   padding: 1rem;
-  width: 70%;
+  width: 100%;
 }
 
 .post .post-content .post-date,
@@ -1164,8 +1197,9 @@ footer .copyright {
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
+  width: 100%;
 }
 
 .post .post-content .post-title a {
@@ -1176,6 +1210,26 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
+}
+
+.post-tag {
+  width: 100%;
+  padding: 0 20px 20px;
+}
+
+.post-tag a {
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  color: #263959;
+  text-transform: uppercase;
+  border: 1px solid #263959;
+  white-space: nowrap;
+}
+
+.post-tag a:hover {
+  text-decoration: underline;
 }
 
 a.older-posts, a.newer-posts {
@@ -1318,6 +1372,10 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
+.page-tag {
+  line-height: 2;
+}
+
 .page-tag a {
   text-decoration: none;
   font-size: 10px;
@@ -1326,6 +1384,7 @@ a.newer-posts:hover {
   color: #263959;
   text-transform: uppercase;
   border: 1px solid #263959;
+  white-space:nowrap;
 }
 
 .page-tag a:hover {
@@ -1349,6 +1408,21 @@ a.newer-posts:hover {
   color: #263959;
   margin: 10px 0;
   float: left;
+}
+
+.blog-tags h2 a {
+  text-decoration: none;
+  color: #263959;
+}
+
+.blog-tags h2 a:hover {
+  text-decoration: underline;
+  opacity: .8;
+}{
+  color: #263959;
+  margin: 10px 0;
+  float: left;
+  text-decoration: none;
 }
 
 .tags {
@@ -1403,7 +1477,6 @@ a.newer-posts:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
-    width: 48%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;
@@ -1421,8 +1494,13 @@ a.newer-posts:hover {
   .post .post-content .post-title {
     margin: 0 0 5px;
   }
-  .post .post-content .post-title a {
+  .post .post-content .post-title {
     font-size: 21px;
+  }
+
+  .post-tag {
+    padding: 0 15px 15px;
+    line-height: 2;
   }
 
   .content-box {
@@ -1503,7 +1581,6 @@ a.newer-posts:hover {
     padding: 10px;
   }
   .post {
-    width: 98%;
     max-width: 100%;
     margin: 2%;
     -webkit-box-orient: vertical;
@@ -1521,7 +1598,7 @@ a.newer-posts:hover {
   .post .post-content .post-title {
     margin: 0 0 5px;
   }
-  .post .post-content .post-title a {
-    font-size: 21px;
+  .post-tag {
+    padding: 0 10px 15px;
   }
 }
