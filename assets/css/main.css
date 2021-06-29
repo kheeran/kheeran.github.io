@@ -1238,6 +1238,13 @@ footer .copyright {
   text-decoration: underline;
 }
 
+.short-description:before {
+  content: " ("
+}
+
+.short-description:after {
+  content: ")"
+}
 a.older-posts, a.newer-posts {
   font-size: 18px;
   display: inline-block;
@@ -1464,7 +1471,7 @@ a.newer-posts:hover {
   width: 100%;
 }
 
-.tag-list span {
+.tag-list > span {
   float: left;
   width: 100%;
   margin-left: 10px;
@@ -1608,5 +1615,21 @@ a.newer-posts:hover {
   }
   .post-tag {
     padding: 0 10px 15px;
+  }
+
+  .full-description {
+    display: none;
+  }
+
+  .short-description {
+    display: block;
+  }
+  
+  .short-description:after {
+    content: none
+  }
+
+  .short-description:before {
+    content: none
   }
 }
