@@ -20,7 +20,7 @@ layout: main
       </small>
     </span>
     <span>{{ post.subtitle}}</span>
-    <span><small><em>{{ post.description}}</em></small></span>
+    <span><small><em>{% include dynamic_description.html %}</em></small></span>
   </div>
   {% endunless %}
   {% endif %}{% endfor %}

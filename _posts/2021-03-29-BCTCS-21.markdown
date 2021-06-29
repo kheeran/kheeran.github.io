@@ -6,7 +6,7 @@ year: 2021
 subtitle: Virtual, University of Liverpool
 description: Presenter and Attendee
 info: https://intranet.csc.liv.ac.uk/~bctcs2021/
-tags: [Events, Attendee, Presenter]
+tags: [Events, Presenter, Attendee]
 latex: true
 attachments: [BCTCS-21.pdf]
 ---

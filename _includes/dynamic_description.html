@@ -1,0 +1,7 @@
+{% if post.description %}
+{% if post.short_description %}
+<span class="full-description">{{ post.description }}</span><span class="short-description">{{ post.short_description }}</span>
+{% else %}
+{{ post.description }}
+{% endif %}
+{% endif %}
