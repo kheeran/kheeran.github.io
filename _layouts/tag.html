@@ -11,13 +11,13 @@ layout: main
   {% else %}
   {% endif %}
   <div class="post-content">
-    <span class="post-date">{{post.year}}</span> | <span class="post-words">{{ post.subtitle}}</span>
+    <span class="post-line"><span class="post-date">{{post.year}}</span>&nbsp;| <span class="post-words">{{ post.subtitle}}</span></span>
     {% if post.content.size > 1 %}
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;{{post.title}}</a></h2>
     {% else %}
     <h2 class="post-title">{{post.title}}</h2>
     {% endif %}
-    <em><span class="post-words">{% include dynamic_description.html %}</span></em>
+    <em><span class="post-line"><span class="post-words">{% include dynamic_description.html %}</span></span></em>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
   </div>
   <div class="post-tag">
