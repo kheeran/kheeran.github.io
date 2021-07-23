@@ -30,7 +30,8 @@ permalink: False
           {% else %}
           {{ post.title }}
           {% endif %}
-          | <small>{{ post.date | date: '%b %Y' }}</small>
+          <!-- | <small>{{ post.date | date: '%b %Y' }}</small> -->
+          | <small>{{ post.year }}</small>
         </span>
     </div>
     {% endif %}{% endfor %}
