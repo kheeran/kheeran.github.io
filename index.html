@@ -13,8 +13,9 @@ layout: main
   <div class="tag-list" style="padding-bottom:10px;">      
     <span>
       <small>{{ post.year}}</small> | 
-      <em>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</em>
+      <em>{% if post.link %}<a href="{{ post.link }}" target="_blank">{{ post.title}}</a>{% elsif post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</em>
       <small>
+        {% if post.link %} &nbsp; <a href="{{ post.link }}" target="_blank"><i class="fa fa-link"></i></a>{% endif %}
         {% if post.content.size > 1 %} &nbsp; <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-file-text-o"></i></a>{% endif %}
         {% if post.info %} &nbsp; <a href="{{ post.info }}" target="_blank"><i class="fa fa-info"></i></a>{% endif %}
       </small>

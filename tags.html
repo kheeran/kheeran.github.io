@@ -21,9 +21,12 @@ permalink: False
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <div class="tag-list">
         <span>
-          {% if post.content.size > 1 %}
-          <small><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-file-text-o"></i></a></small>
-          &nbsp; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+          {% if post.link %}
+          <small><a href="{{ post.link }}" target="_blank"><i class="fa fa-link"></i></a></small> &nbsp;
+          <a href="{{ post.link }}" target="_blank">{{ post.title}}</a>
+          {% elsif post.content.size > 1 %}
+          <small><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-file-text-o"></i></a></small> &nbsp;
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
           {% else %}
           {{ post.title }}
           {% endif %}
