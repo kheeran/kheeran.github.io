@@ -21,3 +21,5 @@ We show that every two-pass streaming algorithm that solely computes a maximal m
 
 Furthermore, we combine the two main techniques, i.e., subsampling followed by the **Greedy** matching algorithm [Konrad, MFCS'18] which gives a $2-\sqrt{2} \approx 0.5857$-approximation, and the computation of *degree-bounded semi-matchings* [Esfandiari et al., ICDMW'16][Kale and Tirodkar, APPROX'17] which gives a $\frac{1}{2} + \frac{1}{12} \approx 0.5833$-approximation, and obtain a meta-algorithm that yields Konrad's and Esfandiari et al.'s algorithms as special cases. This unifies two strands of research. By optimizing parameters, we discover that Konrad's algorithm is optimal for the implied class of algorithms and, perhaps surprisingly, that there is a second optimal algorithm. We show that the analysis of our meta-algorithm is best possible.
 Our results imply that further improvements, if possible, require new techniques.
+
+View the full paper [here]({{ page.link }}){:target="_blank"}.
