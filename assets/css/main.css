@@ -1304,11 +1304,16 @@ a.newer-posts:hover {
   text-transform: uppercase;
 }
 
-.header-page .page-info {
+.header-page .page-details {
   color: #a0a0a0;
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.header-page .page-details span {
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .page-cover-image {
