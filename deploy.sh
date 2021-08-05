@@ -18,5 +18,5 @@ git add .
 git commit -m "Deploy: $(date) $commit_id"
 git push origin master
 git checkout dev
-if [ "$isStashed" = false ]; then git stash apply; fi
+if [ "$isStashed" = true ]; then git stash apply; fi
 echo "WEBSITE DEPLOYED!"
