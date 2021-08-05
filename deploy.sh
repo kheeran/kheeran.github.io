@@ -10,6 +10,7 @@ rm -r !("_site")
 mv _site/* ./
 rm -d _site
 rm LICENSE
+rm deploy.sh
 git add .
 git commit -m "Deploy: $(date) $commit_id"
 git push origin master
