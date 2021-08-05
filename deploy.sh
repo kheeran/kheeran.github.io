@@ -1,7 +1,7 @@
 #!/bin/bash
 stashOut="$(git stash)"
 isStashed=true
-if [ "$stashOut" = "No local changes to save" ]; then isStashed=false; fi
+if [ "$stashOut" = "No local changes to save" ]; then isStashed=false; else echo "STASHED UNCOMMITTED CHANGES!" ; fi
 git checkout dev
 git pull
 commit_id=$(git rev-parse HEAD)
