@@ -13,7 +13,7 @@ publication: https://www.dagstuhl.de/dagpub/approx_random21/getFile.php?session_
 video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
 ---
 
-This is my very first publication. I am grateful to my parents for always supporting and believing in me. I am thankful to my friends who have always been a great source of inspiration and challenge. And last but not least, I could not have done this without the excellent guidance and mentorship from my supervisor and co-author Christian. 
+This is my very first publication. I am grateful to my parents for always supporting and believing in me. I am thankful to my friends and loved ones who have always been a great source of inspiration and challenge. And last but not least, I could not have done this without the excellent guidance and mentorship from my supervisor and co-author Christian. 
 
 #### Abstract
 
