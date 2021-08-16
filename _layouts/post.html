@@ -1,6 +1,9 @@
 ---
 layout: main
 ---
+{% assign tuple_array_str = "publication & fa fa-file-text-o, video & fa fa-video-camera, link & fa fa-link, info & fa fa-info" %}
+{% assign tuple_array = tuple_array_str | split:', ' %}
+
 <article class="article-page">
   <div class="page-content">
     {% if page.img %}
@@ -20,8 +23,13 @@ layout: main
         <div class="page-subtitle"><span>{{ page.subtitle }}</span></div>
         <div class="page-date"><span>{{ page.year }}</span></div>
         <div class="page-details">
-          {% if page.link %}<span><a href="{{ page.link }}" target="_blank"><i class="fa fa-link"></i></a></span>{% endif %}
-          {% if page.info %}<span><a href="{{ page.info }}" target="_blank"><i class="fa fa-info"></i></a></span>{% endif %}
+          <!-- Handle external links -->
+          {% for tuple_str in tuple_array %}
+          {% assign tuple = tuple_str | split: ' & ' %}
+          {% assign key = tuple[0] %}
+          {% assign icon = tuple[1] %}
+          {% if page[key] %}<span><a href="{{ page[key] }}" target="_blank"><i class="{{ icon }}"></i></a></span>{% endif %}
+          {% endfor %}
         </div>
         <div class="page-block-end">
           <div class="page-share">
@@ -36,8 +44,8 @@ layout: main
           </div>
         </div>
       </header>
-      {% if content.size > 1 %}
       {{content | markdownify}}
+      {% if content.size > 1 or page.attachments %}
       <div class="page-block-end">
         <div class="page-tag" style="padding-right: 30px;">
         {% if page.attachments %}

@@ -5,15 +5,21 @@ layout: main
 <h2>{{ page.tag }}</h2>
 
 {% for post in paginator.posts %}
-<article class="post">
+<!-- Dynamically assign article class -->
+{% if post.content.size > 1 or post.attachments %}
+{% assign article_class = "post-hover" %}
+{% else %}
+{% assign article_class = "" %}
+{% endif %}
+<article class="post {{ article_class }}">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
   {% else %}
   {% endif %}
   <div class="post-content">
     <span class="post-line"><span class="post-date">{{post.year}}</span>&nbsp;| <span class="post-words">{{ post.subtitle}}</span></span>
-    {% if post.content.size > 1 %}
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><i class="fa fa-file-text-o"></i>&nbsp;&nbsp;{{post.title}}</a></h2>
+    {% if post.content.size > 1 or post.attachments %}
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     {% else %}
     <h2 class="post-title">{{post.title}}</h2>
     {% endif %}
