@@ -6,7 +6,7 @@ layout: main
 
 {% for post in paginator.posts %}
 <!-- Dynamically assign article class -->
-{% if post.content.size > 1 or post.attachments %}
+{% if post.content.size > 1 %}
 {% assign article_class = "post-hover" %}
 {% else %}
 {% assign article_class = "" %}
@@ -18,7 +18,7 @@ layout: main
   {% endif %}
   <div class="post-content">
     <span class="post-line"><span class="post-date">{{post.year}}</span>&nbsp;| <span class="post-words">{{ post.subtitle}}</span></span>
-    {% if post.content.size > 1 or post.attachments %}
+    {% if post.content.size > 1 %}
     <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
     {% else %}
     <h2 class="post-title">{{post.title}}</h2>

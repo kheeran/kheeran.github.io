@@ -45,16 +45,9 @@ layout: main
         </div>
       </header>
       {{content | markdownify}}
-      {% if content.size > 1 or page.attachments %}
+      {% if content.size > 1 %}
       <div class="page-block-end">
-        <div class="page-tag" style="padding-right: 30px;">
-        {% if page.attachments %}
-        <span id="Attachments"><strong>Attachments</strong> | </span>
-        {% for attachment in page.attachments %}
-          <a href="{{site.baseurl}}/assets/attachments/{{attachment}}" target="_blank" class="tag">{{ attachment }}</a>
-        {% endfor %}
-        {% endif %}
-        </div>
+        <div></div>
         <div class="copyright">
           <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
         </div>
