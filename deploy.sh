@@ -19,6 +19,6 @@ rm run.sh
 git add .
 git commit -m "Deploy: $(date) $commit_id"
 git push origin master
+echo "WEBSITE DEPLOYED!"
 git checkout $initialBranch
 if [ "$isStashed" = true ]; then git stash apply; fi
-echo "WEBSITE DEPLOYED!"
