@@ -13,7 +13,6 @@ publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
 video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
 slides: APPROX-21_slides.pdf
 poster: APPROX-21_poster.pdf
-attachments: [asd]
 ---
 
 This is my very first publication. I am grateful to my parents for always supporting and believing in me. I am thankful to my friends and loved ones who have always been a great source of inspiration and challenge. And last but not least, I could not have done this without the excellent guidance and mentorship from my supervisor and co-author Christian. 
