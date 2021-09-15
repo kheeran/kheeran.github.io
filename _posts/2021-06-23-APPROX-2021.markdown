@@ -9,7 +9,7 @@ short_description: APPROX 2021
 tags: [Conference Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2107.07841
-publication: https://www.dagstuhl.de/dagpub/approx_random21/getFile.php?session_id=aq57dufc9m9mq9pt0hef4a5gg4&hash=910618c72d17d6a59275a91a54f21855c0a96864292e1669fab12991740038f4
+publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
 video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
 slides: APPROX-21_slides.pdf
 poster: APPROX-21_poster.pdf
