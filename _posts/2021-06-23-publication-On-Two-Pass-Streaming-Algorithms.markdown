@@ -5,6 +5,7 @@ title: On Two-Pass Streaming Algorithms for Maximum Bipartite Matching
 year: 2021
 subtitle: Christian Konrad, Kheeran K. Naidu
 description: Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems
+book: LIPIcs Volume 207 Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques pp 19:1-19:18
 short_description: APPROX 2021
 tags: [Conference Publications]
 latex: True
