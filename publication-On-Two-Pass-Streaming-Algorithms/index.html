@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>On Two-Pass Streaming Algorithms for Maximum Bipartite Matching - Kheeran K. Naidu</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Kheeran K. Naidu" property="og:site_name">
+  
+    <meta content="On Two-Pass Streaming Algorithms for Maximum Bipartite Matching" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems" property="og:description">
+  
+  
+    <meta content="https://kheerannaidu.com/publication-On-Two-Pass-Streaming-Algorithms/" property="og:url">
+  
+  
+    <meta content="2021-06-23T00:00:00+01:00" property="article:published_time">
+    <meta content="https://kheerannaidu.com/about/" property="article:author">
+  
+  
+    <meta content="https://kheerannaidu.com/assets/img/kheeran.jpg" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="Conference Publications" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+  
+    <meta name="twitter:title" content="On Two-Pass Streaming Algorithms for Maximum Bipartite Matching">
+  
+  
+    <meta name="twitter:url" content="https://kheerannaidu.com/publication-On-Two-Pass-Streaming-Algorithms/">
+  
+  
+    <meta name="twitter:description" content="Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems">
+  
+  
+    <meta name="twitter:image:src" content="https://kheerannaidu.com/assets/img/kheeran.jpg">
+  
+
+	<meta name="description" content="Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  
+  <!-- Latex Parser using MathJax -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
+  
+</head>
+
+<body>
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/kheeran.jpg" alt="Kheeran K. Naidu"></a>
+      </div>
+      <div class="author-name">Kheeran K. Naidu</div>
+      <p>My current research interest is in the design, analysis and limitations of streaming algorithms for massive graphs.</p>
+      <p><i class="fa fa-graduation-cap" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<em>PhD in Computer Science</em></p>
+      <p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<em>Algorithms and Complexity Group, University of Bristol</em></p>
+      <p><i class="fa fa-book" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;1&nbsp;<a href="/tag/Conference+Publications" class="tag"><em>Conference Publications</em></a></p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <div class="navbar">
+    <div class="navbar-items">
+        
+            <a href="/"><i class="fa fa-home"></i> &nbsp; Home</a>
+        
+            <a href="/tags/"><i class="fa fa-tags"></i> &nbsp; All Tags</a>
+        
+    </div>
+</div>
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+        
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/kheeran" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:kheeran.naidu@bristol.ac.uk"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <!-- <div class="copyright">
+      <p>2021 &copy; Kheeran K. Naidu</p>
+    </div> -->
+    &nbsp;
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  
+
+
+<article class="article-page">
+  <div class="page-content">
+    
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">On Two-Pass Streaming Algorithms for Maximum Bipartite Matching</h1>
+        <div class="page-subtitle"><span>Christian Konrad, Kheeran K. Naidu</span></div>
+        <div class="page-date"><span>2021</span></div>
+        <div class="page-details">
+          <!-- Handle external links -->
+          
+          
+          
+          
+          <span><a href="https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19" target="_blank"><i class="fa fa-file-text-o"></i></a></span>
+          
+          
+          
+          
+          <span><a href="https://www.youtube.com/watch?v=0OwsPy4B3Rc" target="_blank"><i class="fa fa-video-camera"></i></a></span>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </div>
+        <div class="page-block-end">
+          <div class="page-share">
+            <!-- <a href="https://twitter.com/intent/tweet?text=On Two-Pass Streaming Algorithms for Maximum Bipartite Matching&url=https://kheerannaidu.com/publication-On-Two-Pass-Streaming-Algorithms/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a> -->
+            <!-- <a href="https://facebook.com/sharer.php?u=https://kheerannaidu.com/publication-On-Two-Pass-Streaming-Algorithms/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a> -->
+            <!-- <a href="https://plus.google.com/share?url=https://kheerannaidu.com/publication-On-Two-Pass-Streaming-Algorithms/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a> -->
+          </div>
+          <div class="page-tag">
+            
+              <a href="/tag/Conference+Publications" class="tag"><i class="fa fa-tag"></i> &nbsp; Conference Publications</a>
+            
+          </div>
+        </div>
+      </header>
+      <p>This is my very first publication. I am grateful to my parents for always supporting and believing in me. I am thankful to my friends and loved ones who have always been a great source of inspiration and challenge. And last but not least, I could not have done this without the excellent guidance and mentorship from my supervisor and co-author Christian.</p>
+
+<h4 id="abstract">Abstract</h4>
+
+<p>We study two-pass streaming algorithms for <strong>Maximum Bipartite Matching</strong> (<strong>MBM</strong>). All known two-pass streaming algorithms for <strong>MBM</strong> operate in a similar fashion: They compute a maximal matching in the first pass and find 3-augmenting paths in the second in order to augment the matching found in the first pass. Our aim is to explore the limitations of this approach and to determine whether current techniques can be used to further improve the state-of-the-art algorithms. We give the following results:</p>
+
+<p>We show that every two-pass streaming algorithm that solely computes a maximal matching in the first pass and outputs a $(2/3+\epsilon)$-approximation requires $n^{1+\Omega(\frac{1}{\log \log n})}$ space, for every $\epsilon &gt; 0$, where $n$ is the number of vertices of the input graph. This result is obtained by extending the Ruzsa-Szemerédi graph construction of [Goel et al., SODA’12] so as to ensure that the resulting graph has a close to perfect matching, the key property needed in our construction. This result may be of independent interest.</p>
+
+<p>Furthermore, we combine the two main techniques, i.e., subsampling followed by the <strong>Greedy</strong> matching algorithm [Konrad, MFCS’18] which gives a $2-\sqrt{2} \approx 0.5857$-approximation, and the computation of <em>degree-bounded semi-matchings</em> [Esfandiari et al., ICDMW’16][Kale and Tirodkar, APPROX’17] which gives a $\frac{1}{2} + \frac{1}{12} \approx 0.5833$-approximation, and obtain a meta-algorithm that yields Konrad’s and Esfandiari et al.’s algorithms as special cases. This unifies two strands of research. By optimizing parameters, we discover that Konrad’s algorithm is optimal for the implied class of algorithms and, perhaps surprisingly, that there is a second optimal algorithm. We show that the analysis of our meta-algorithm is best possible.
+Our results imply that further improvements, if possible, require new techniques.</p>
+
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Conference paper</strong> | </span>
+    <a href="https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19" target="_blank" class="tag">APPROX21</a>
+</div>
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Latest version</strong> | </span>
+    <a href="https://arxiv.org/abs/2107.07841" target="_blank" class="tag">ArXiv</a>
+</div>
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Conference talk</strong> | </span>
+    <a href="https://www.youtube.com/watch?v=0OwsPy4B3Rc" target="_blank" class="tag">YouTube</a>
+    <a href="/assets/attachments/APPROX-21_slides.pdf" target="_blank" class="tag">Slides</a>
+    <a href="/assets/attachments/APPROX-21_poster.pdf" target="_blank" class="tag">Poster</a>
+</div>
+
+      
+      <div class="page-block-end">
+        <div></div>
+        <div class="copyright">
+          <p>2021 &copy; Kheeran K. Naidu</p>
+        </div>
+      </div>
+      
+      
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-105864269-3', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+  
+</body>
+</html>

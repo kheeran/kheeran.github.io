@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>SCEEM PGR Conference - Kheeran K. Naidu</title>
+	<title>37th British Colloquium for Theoretical Computer Science (BCTCS) - Kheeran K. Naidu</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Kheeran K. Naidu" property="og:site_name">
   
-    <meta content="SCEEM PGR Conference" property="og:title">
+    <meta content="37th British Colloquium for Theoretical Computer Science (BCTCS)" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -17,10 +17,10 @@
     <meta content="Presenter and Attendee" property="og:description">
   
   
-    <meta content="https://kheerannaidu.com/SCEEM-PGR-21/" property="og:url">
+    <meta content="https://kheerannaidu.com/conference-BCTCS-21/" property="og:url">
   
   
-    <meta content="2021-05-18T00:00:00+01:00" property="article:published_time">
+    <meta content="2021-03-29T00:00:00+01:00" property="article:published_time">
     <meta content="https://kheerannaidu.com/about/" property="article:author">
   
   
@@ -43,10 +43,10 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="SCEEM PGR Conference">
+    <meta name="twitter:title" content="37th British Colloquium for Theoretical Computer Science (BCTCS)">
   
   
-    <meta name="twitter:url" content="https://kheerannaidu.com/SCEEM-PGR-21/">
+    <meta name="twitter:url" content="https://kheerannaidu.com/conference-BCTCS-21/">
   
   
     <meta name="twitter:description" content="Presenter and Attendee">
@@ -145,8 +145,8 @@
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">SCEEM PGR Conference</h1>
-        <div class="page-subtitle"><span>Virtual, University of Bristol</span></div>
+        <h1 class="page-title">37th British Colloquium for Theoretical Computer Science (BCTCS)</h1>
+        <div class="page-subtitle"><span>Virtual, University of Liverpool</span></div>
         <div class="page-date"><span>2021</span></div>
         <div class="page-details">
           <!-- Handle external links -->
@@ -169,14 +169,14 @@
           
           
           
-          
+          <span><a href="https://intranet.csc.liv.ac.uk/~bctcs2021/" target="_blank"><i class="fa fa-info"></i></a></span>
           
         </div>
         <div class="page-block-end">
           <div class="page-share">
-            <!-- <a href="https://twitter.com/intent/tweet?text=SCEEM PGR Conference&url=https://kheerannaidu.com/SCEEM-PGR-21/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a> -->
-            <!-- <a href="https://facebook.com/sharer.php?u=https://kheerannaidu.com/SCEEM-PGR-21/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a> -->
-            <!-- <a href="https://plus.google.com/share?url=https://kheerannaidu.com/SCEEM-PGR-21/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a> -->
+            <!-- <a href="https://twitter.com/intent/tweet?text=37th British Colloquium for Theoretical Computer Science (BCTCS)&url=https://kheerannaidu.com/conference-BCTCS-21/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a> -->
+            <!-- <a href="https://facebook.com/sharer.php?u=https://kheerannaidu.com/conference-BCTCS-21/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a> -->
+            <!-- <a href="https://plus.google.com/share?url=https://kheerannaidu.com/conference-BCTCS-21/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a> -->
           </div>
           <div class="page-tag">
             
@@ -189,17 +189,20 @@
           </div>
         </div>
       </header>
-      <p>This was an internal conference held for postgraduate research (PGR) students in the School of Computer Science, Electrical and Electronic Engineering, and Engineering Maths (SCEEM) to showcase their research. My talk was on the following:</p>
+      <p>My talk at the colloquium was on the following:</p>
 
-<h3 id="on-two-pass-streaming-algorithms-for-maximum-bipartite-matching">On Two-Pass Streaming Algorithms for Maximum Bipartite Matching</h3>
+<h3 id="a-unifying-class-of-algorithms-for-semi-streaming-bipartite-maximum-matching">A Unifying Class of Algorithms for Semi Streaming Bipartite Maximum Matching</h3>
 <h4 id="abstract">Abstract</h4>
-<p>In the semi-streaming model, proposed by Feigenbaum et al. [ICALP 2004], a graph with n vertices is presented to an algorithm as a stream of edges where the algorithm maintains a memory of size $O(n \textrm{ polylog } n)$. It provides an efficient model for processing massive graphs which have quickly become widespread.</p>
+<p>In the semi-streaming model proposed by Feigenbaum et al. [ICALP 2004], a graph with $n$ vertices is presented to an algorithm as a stream of edges where the storage space of the algorithm is bounded by $O(n \textrm{ polylog } n)$. It provides an efficient model for processing massive graphs which have quickly become widespread. An algorithm in this model typically takes anywhere from one pass up to logarithmically many passes of the stream, in the same order.</p>
 
-<p>Finding a maximum bipartite matching is a fundamental graph problem which has numerous real-world applications and has garnered great attention in this model. In this talk, I will cover the best known algorithms and lower bounds using two passes of the stream. This is based on joint work with Dr Christian Konrad.</p>
+<p>A long-standing open problem in this model is improving upon a $\frac{1}{2}$-approximation for maximum cardinality matching (MCM) in one pass of the stream (in adversarial order). Currently, a simple \textsc{Greedy} algorithm achieves the state-of-the-art approximation factor. Improving upon a $\frac{1}{2}$-approximation in two passes for bipartite MCM, however, was fairly recently achieved by Konrad et al. [APPROX 2012] with a $(\frac{1}{2} + 0.0192)$-approximation. Since then, Kale and Tirodkar [APPROX 2017], and Esfandiari et al. [ICDMW 2016] independently improved these bounds to a $(\frac{1}{2} + 0.0625)$- and $(\frac{1}{2} + 0.0833 )$-approximation, respectively. Most recently, Konrad [MFCS 2018] set the state-of-the-art for bipartite MCM at a $(\frac{1}{2} + 0.0858)$-approximation in two passes of the stream.</p>
+
+<p>We present a wider class of two-pass bipartite MCM algorithms which Esfandiari et al.’s and Konrad’s algorithms are special cases of. We show that there are two optimal algorithms in this class which achieve the state-of-the-art, one of which is a novel algorithm. Finally, we construct a worst-case example which achieves the analytical lower bound, proving that (a) the analysis is indeed tight, (b) a $(\frac{1}{2} + 0.0858)$-approximation is best for this class of algorithms, and (c) a completely different algorithmic approach will be needed to further improve this bound. 
+The talk is based on joint work with Christian Konrad.</p>
 
 <div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="/assets/attachments/SCEEM-PGR-21.pdf" target="_blank" class="tag">Slides</a>
+    <span id="Attachments"><strong>Colloquium talk</strong> | </span>
+    <a href="/assets/attachments/BCTCS-21.pdf" target="_blank" class="tag">Slides</a>
 </div>
 
       
