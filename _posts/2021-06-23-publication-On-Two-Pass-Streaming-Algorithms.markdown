@@ -5,8 +5,8 @@ title: On Two-Pass Streaming Algorithms for Maximum Bipartite Matching
 year: 2021
 subtitle: Christian Konrad, Kheeran K. Naidu
 description: Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems
+description_short: APPROX 2021
 book: LIPIcs Volume 207 Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques pp 19:1-19:18
-short_description: APPROX 2021
 tags: [Conference Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2107.07841
@@ -14,9 +14,12 @@ publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
 video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
 slides: APPROX-21_slides.pdf
 poster: APPROX-21_poster.pdf
+dblp: https://dblp.org/rec/conf/approx/KonradN21.html
 ---
 
-This is my very first publication. I am grateful to my parents for always supporting and believing in me. I am thankful to my friends and loved ones who have always been a great source of inspiration and challenge. And last but not least, I could not have done this without the excellent guidance and mentorship from my supervisor and co-author Christian. 
+This is my very first publication in the proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems (APPROX 2021). 
+
+I am grateful to my parents for always supporting and believing in me. I am thankful to my friends and loved ones who have always been a great source of inspiration and challenge. And last but not least, I could not have done this without the excellent guidance and mentorship from my supervisor and co-author Christian. 
 
 #### Abstract
 
@@ -29,16 +32,20 @@ Our results imply that further improvements, if possible, require new techniques
 
 
 <div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.publication }}" target="_blank" class="tag">APPROX21</a>
+    <span id="Attachments"><strong>Latest version</strong> | </span>
+    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Latest version</strong> | </span>
-    <a href="{{ page.arxiv }}" target="_blank" class="tag">ArXiv</a>
+    <span id="Attachments"><strong>Conference paper</strong> | </span>
+    <a href="{{ page.publication }}" target="_blank" class="tag">APPROX21</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
     <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.poster }}" target="_blank" class="tag">Poster</a>
+</div>
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Further details</strong> | </span>
+    <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
 </div>

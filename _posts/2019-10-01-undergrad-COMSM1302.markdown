@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMSM1302 Overview of Computer Architecture
+title: Overview of Computer Architecture
+title_short: COMSM1302
 year: 2018-2020
 subtitle: University of Bristol
 description: Undergraduate Teaching Assistant

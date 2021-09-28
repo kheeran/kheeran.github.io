@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: 24th International Conference on Approximation Algorithms for Combinatorial Optimization Problems (APPROX)
+title: 24th International Conference on Approximation Algorithms for Combinatorial Optimization Problems
+title_short: APPROX
 year: 2021
 subtitle: Virtual, University of Washington
 description: Presenter and Attendee

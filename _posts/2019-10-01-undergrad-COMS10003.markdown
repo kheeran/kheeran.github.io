@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMS10003 Mathematical Methods for Computer Scientists
+title: Mathematical Methods for Computer Scientists
+title_short: COMS10003
 year: 2018-2020
 subtitle: University of Bristol
 description: Undergraduate Teaching Assistant

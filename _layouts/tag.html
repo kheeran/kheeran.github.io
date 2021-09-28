@@ -18,12 +18,16 @@ layout: main
   {% endif %}
   <div class="post-content">
     <span class="post-line"><span class="post-date">{{post.year}}</span>&nbsp;| <span class="post-words">{{ post.subtitle}}</span></span>
+    {% assign dynamic_text_full = post.title %}
+    {% assign dynamic_text_short = post.title_short %}
     {% if post.content.size > 1 %}
-    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{% include dynamic_text.html %}</a></h2>
     {% else %}
-    <h2 class="post-title">{{post.title}}</h2>
+    <h2 class="post-title">{% include dynamic_text.html %}</h2>
     {% endif %}
-    <em><span class="post-line"><span class="post-words">{% include dynamic_description.html %}</span></span></em>
+    {% assign dynamic_text_full = post.description %}
+    {% assign dynamic_text_short = post.description_short %}
+    <em><span class="post-line"><span class="post-words">{% include dynamic_text.html %}</span></span></em>
     <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
   </div>
   <div class="post-tag">

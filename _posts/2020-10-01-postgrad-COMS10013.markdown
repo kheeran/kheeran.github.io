@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMS10013 Mathematics for Computer Science B
+title: Mathematics for Computer Science B
+title_short: COMS10013
 year: 2020-2021
 subtitle: University of Bristol
 description: Postgraduate Teaching Assistant

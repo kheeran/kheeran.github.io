@@ -16,7 +16,9 @@ layout: main
   <div class="tag-list" style="padding-bottom:10px;">      
     <span>
       <small>{{ post.year}}</small> | 
-      <em>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>{% else %}{{ post.title }}{% endif %}</em>
+      {% assign dynamic_text_full = post.title %}
+      {% assign dynamic_text_short = post.title_short %}
+      <em>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{% include dynamic_text.html %}</a>{% else %}{% include dynamic_text.html %}{% endif %}</em>
       <small>
         <!-- Handle external links -->
         {% for list_str in list_array %}
@@ -28,7 +30,9 @@ layout: main
       </small>
     </span>
     <span>{{ post.subtitle}}</span>
-    <span><small><em>{% include dynamic_description.html %}</em></small></span>
+    {% assign dynamic_text_full = post.description %}
+    {% assign dynamic_text_short = post.description_short %}
+    <span><small><em>{% include dynamic_text.html %}</em></small></span>
   </div>
   {% endunless %}
   {% endif %}{% endfor %}

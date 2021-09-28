@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMS10017 Algorithms I
+title: Algorithms I
+title_short: COMS10017
 year: 2020-present
 subtitle: University of Bristol
 description: Postgraduate Teaching Assistant

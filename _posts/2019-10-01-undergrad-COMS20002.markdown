@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMS20002 Communication, Complexity and Number Theory 
+title: Communication, Complexity and Number Theory 
+title_short: COMS20002
 year: 2019-2020
 subtitle: University of Bristol
 description: Undergraduate Teaching Assistant

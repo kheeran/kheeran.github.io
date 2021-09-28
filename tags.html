@@ -21,14 +21,16 @@ permalink: False
     {% for post in site.tags[this_word] %}{% if post.title != null %}
     <div class="tag-list">
         <span>
+          {% assign dynamic_text_full = post.title %}
+          {% assign dynamic_text_short = post.title_short %}
           {% if post.publication %}
           <small><a href="{{ post.publication }}" target="_blank"><i class="fa fa-file-text-o"></i></a></small> &nbsp;
-          <a href="{{ post.publication }}" target="_blank">{{ post.title}}</a>
+          <a href="{{ post.publication }}" target="_blank">{% include dynamic_text.html %}</a>
           {% elsif post.content.size > 1 %}
           <small><a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-ellipsis-h"></i></a></small> &nbsp;
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+          <a href="{{ site.baseurl }}{{ post.url }}">{% include dynamic_text.html %}</a>
           {% else %}
-          {{ post.title }}
+          {% include dynamic_text.html %}
           {% endif %}
           <!-- | <small>{{ post.date | date: '%b %Y' }}</small> -->
           | <small>{{ post.year }}</small>

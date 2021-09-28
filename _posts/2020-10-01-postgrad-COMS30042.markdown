@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMS30042 Advanced Algorithms
+title: Advanced Algorithms
+title_short: COMS30042
 year: 2020-present
 subtitle: University of Bristol
 description: Postgraduate Teaching Assistant

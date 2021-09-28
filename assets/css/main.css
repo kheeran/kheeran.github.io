@@ -1243,11 +1243,11 @@ footer .copyright {
   text-decoration: underline;
 }
 
-.short-description:before {
+.dynamic-text-short:before {
   content: " ("
 }
 
-.short-description:after {
+.dynamic-text-short:after {
   content: ")"
 }
 a.older-posts, a.newer-posts {
@@ -1627,19 +1627,19 @@ a.newer-posts:hover {
     padding: 0 10px 15px;
   }
 
-  .full-description {
+  .dynamic-text-full {
     display: none;
   }
 
-  .short-description {
-    display: block;
+  .dynamic-text-short {
+    display: inline-block;
   }
   
-  .short-description:after {
+  .dynamic-text-short:after {
     content: none
   }
 
-  .short-description:before {
+  .dynamic-text-short:before {
     content: none
   }
 }

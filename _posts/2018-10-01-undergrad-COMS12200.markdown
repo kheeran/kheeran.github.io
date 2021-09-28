@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMS12200 Introduction to Computer Architecture
+title: Introduction to Computer Architecture
+title_short: COMS12200
 year: 2018-2019
 subtitle: University of Bristol
 description: Undergraduate Teaching Assistant

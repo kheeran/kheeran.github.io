@@ -1,6 +1,6 @@
 {% if post.description %}
-{% if post.short_description %}
-<span class="full-description">{{ post.description }}</span><span class="short-description">{{ post.short_description }}</span>
+{% if post.description_short %}
+<span class="dynamic-text-full">{{ post.description }}</span><span class="dynamic-text-short">{{ post.description_short }}</span>
 {% else %}
 {{ post.description }}
 {% endif %}

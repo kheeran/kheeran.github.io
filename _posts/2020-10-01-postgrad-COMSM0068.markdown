@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: COMSM0068 Advanced Topics in Theoretical Computer Science
+title: Advanced Topics in Theoretical Computer Science
+title_short: COMSM0068
 year: 2020-present
 subtitle: University of Bristol
 description: Postgraduate Teaching Assistant

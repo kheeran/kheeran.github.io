@@ -1,7 +1,8 @@
 ---
 layout: post
 
-title: School of Computer Science, Electrical and Electronic Engineering, and Engineering Maths (SCEEM) PGR Conference
+title: School of Computer Science, Electrical and Electronic Engineering, and Engineering Maths PGR Conference
+title_short: SCEEM PGR
 year: 2021
 subtitle: Virtual, University of Bristol
 description: Presenter and Attendee

@@ -19,7 +19,9 @@ layout: main
     {% endif %}
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">{{page.title}}</h1>
+        {% assign dynamic_text_full = page.title %}
+        {% assign dynamic_text_short = page.title_short %}
+        <h1 class="page-title">{% include dynamic_text.html %}</h1>
         <div class="page-subtitle"><span>{{ page.subtitle }}</span></div>
         <div class="page-date"><span>{{ page.year }}</span></div>
         <div class="page-details">
