@@ -7,7 +7,7 @@ subtitle: Christian Konrad, Kheeran K. Naidu
 description: Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems
 description_short: APPROX 2021
 book: LIPIcs Volume 207 Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques pp 19:1-19:18
-tags: [Conference Publications]
+tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2107.07841
 publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
