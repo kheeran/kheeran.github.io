@@ -10,7 +10,7 @@ book: arXiv Volume abs/2204.04717 Computing Research Repository (CoRR)
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2204.04717
-publication: false
+publication: https://arxiv.org/abs/2204.04717
 video: false
 slides: false
 poster: false
