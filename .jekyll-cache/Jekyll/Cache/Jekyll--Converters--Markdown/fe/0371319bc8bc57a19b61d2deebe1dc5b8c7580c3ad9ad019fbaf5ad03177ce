@@ -1,0 +1,36 @@
+I"�<h4 id="abstract">Abstract</h4>
+
+<p>We consider the <strong>Maximum-weight Matching</strong> (<strong>MWM</strong>) problem in the streaming sliding window model of computation. 
+In this model, the input consists of a sequence of weighted edges on a given vertex set $V$ of size $n$.<br />
+The objective is to maintain an approximation of a maximum-weight matching in the graph spanned by the $L$ most recent edges, for some integer $L$, using space $\tilde{O}(n)$.</p>
+
+<p>Crouch et al. [ESA’13] gave a $(3+\varepsilon)$-approximation for (unweighted) <strong>Maximum Matching</strong> (<strong>MM</strong>), and, very recently, Biabani et al. [ISAAC’21] gave a $(3.5+\varepsilon)$-approximation for <strong>MWM</strong>. 
+In this paper, we give a $(3 + \varepsilon)$-approximation for <strong>MWM</strong>, thereby closing the gap between <strong>MWM</strong> and <strong>MM</strong>.</p>
+
+<p>Biabani et al.’s work makes use of the <em>smooth histogram technique</em> introduced by Braverman and Ostrovsky [FOCS’07]. 
+Rather than designing sliding window algorithms directly, this technique reduces the problem to designing so-called <em>lookahead</em> algorithms that have certain smoothness properties. 
+Biabani et al. showed that the one-pass <strong>MWM</strong> streaming algorithm by Paz and Schwartzman [SODA’17] constitutes a lookahead algorithm with approximation factor $3.5 + \varepsilon$, which yields their result.</p>
+
+<p>We first give a hard instance, showing that Paz and Schwartzman’s algorithm is indeed no better than a $3.5$-approximation lookahead algorithm, which implies that Biabani et al.’s analysis is tight. 
+To obtain our improvement, we give an alternative and more complex definition of lookahead algorithms that still maintains the connection to the sliding window model. 
+Our new definition, however, reflects further smoothness properties of Paz and Schwartzman’s algorithm, which we exploit in order to improve upon Biabani et al.’s analysis, thereby establishing our result.</p>
+
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Latest version</strong> | </span>
+    <a href="https://arxiv.org/abs/2204.04717" target="_blank" class="tag">arXiv</a>
+</div>
+<!-- <div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Conference paper</strong> | </span>
+    <a href="https://arxiv.org/abs/2204.04717" target="_blank" class="tag">APPROX21</a>
+</div> -->
+<!-- <div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Conference talk</strong> | </span>
+    <a href="false" target="_blank" class="tag">YouTube</a>
+    <a href="/assets/attachments/false" target="_blank" class="tag">Slides</a>
+    <a href="/assets/attachments/false" target="_blank" class="tag">Poster</a>
+</div> -->
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Further details</strong> | </span>
+    <a href="https://dblp.org/rec/journals/corr/abs-2204-04717" target="_blank" class="tag">dblp</a>
+</div>
+:ET
