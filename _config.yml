@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Kheeran K. Naidu # add your name
 author-img: kheeran.jpg # add your photo
-about-author: My current research interest is in the design, analysis and limitations of streaming algorithms for massive graphs. # add description
+about-author: My current research interest is in the design, analysis and limitations of streaming algorithms for processing massive graphs. # add description
 position: PhD in Computer Science
 location: Algorithms and Complexity Group, University of Bristol
 social-twitter: # add your Twitter handle
