@@ -14,6 +14,7 @@ publication: null
 video: null
 slides: null
 longSlides: APPROX-22_longSlides.pdf
+longSlides_handout: APPROX-22_longSlides_handout.pdf
 poster: null
 dblp: null
 ---
@@ -32,7 +33,7 @@ For connectivity, Nelson and Yu [SODA~2019] improved the lower bound showing tha
 For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound was improved by Assadi and Shah [ITCS~2022] showing that $O(n^2/\alpha^3)$ bits is sufficient while Dark and Konrad [CCC~2020] have shown that $\Omega(n^2/\alpha^3)$ bits is necessary. The space complexity, however, remains unresolved for many other dynamic graph streaming problems where further improvements can still be made.
 
 
-<div class="page-tag" style="padding-right: 30px;">
+<!-- <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Latest version</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
@@ -45,12 +46,13 @@ For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound w
     <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.poster }}" target="_blank" class="tag">Poster</a>
-</div>
+</div> -->
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Long talk</strong> | </span>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.longSlides }}" target="_blank" class="tag">Slides</a>
+    <a href="{{site.baseurl}}/assets/attachments/{{ page.longSlides_handout }}" target="_blank" class="tag">Handout</a>
 </div>
-<div class="page-tag" style="padding-right: 30px;">
+<!-- <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Further details</strong> | </span>
     <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
-</div>
+</div> -->
