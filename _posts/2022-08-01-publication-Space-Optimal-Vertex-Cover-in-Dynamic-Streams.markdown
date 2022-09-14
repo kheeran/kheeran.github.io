@@ -9,8 +9,8 @@ description_short: APPROX 2022
 book: TBA
 tags: [Publications]
 latex: True
-arxiv: null
-publication: null
+arxiv: http://arxiv.org/abs/2209.05623
+publication: http://arxiv.org/abs/2209.05623
 video: null
 slides: null
 longSlides: APPROX-22_longSlides.pdf
@@ -33,11 +33,11 @@ For connectivity, Nelson and Yu [SODA~2019] improved the lower bound showing tha
 For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound was improved by Assadi and Shah [ITCS~2022] showing that $O(n^2/\alpha^3)$ bits is sufficient while Dark and Konrad [CCC~2020] have shown that $\Omega(n^2/\alpha^3)$ bits is necessary. The space complexity, however, remains unresolved for many other dynamic graph streaming problems where further improvements can still be made.
 
 
-<!-- <div class="page-tag" style="padding-right: 30px;">
+<div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Latest version</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
-<div class="page-tag" style="padding-right: 30px;">
+<!-- <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference paper</strong> | </span>
     <a href="{{ page.publication }}" target="_blank" class="tag">APPROX21</a>
 </div>
