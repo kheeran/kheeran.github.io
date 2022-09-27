@@ -10,13 +10,14 @@ book: TBA
 tags: [Publications]
 latex: True
 arxiv: http://arxiv.org/abs/2209.05623
-publication: http://arxiv.org/abs/2209.05623
-video: null
-slides: null
+conference: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
+publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
+video: https://www.youtube.com/watch?v=-X1QakTbjHs
+slides: APPROX-22_slidesShort.pdf
 longSlides: APPROX-22_longSlides.pdf
 longSlides_handout: APPROX-22_longSlides_handout.pdf
-poster: null
-dblp: null
+poster: APPROX-22_poster.pdf
+dblp: https://dblp.org/rec/conf/approx/NaiduS22.html
 ---
 
 This is my very first student-only publication which will appear in the proceedings of the 25th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems (APPROX 2022) with co-author Vihan Shah from Rutgers University. 
@@ -37,22 +38,22 @@ For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound w
     <span id="Attachments"><strong>Latest version</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
-<!-- <div class="page-tag" style="padding-right: 30px;">
+<div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.publication }}" target="_blank" class="tag">APPROX21</a>
+    <a href="{{ page.conference }}" target="_blank" class="tag">APPROX22</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
+    <a href="{{ page.video }}" target="_blank" class="tag">YouTube (by Vihan Shah)</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.poster }}" target="_blank" class="tag">Poster</a>
-</div> -->
+</div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Long talk</strong> | </span>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.longSlides }}" target="_blank" class="tag">Slides</a>
     <a href="{{site.baseurl}}/assets/attachments/{{ page.longSlides_handout }}" target="_blank" class="tag">Handout</a>
 </div>
-<!-- <div class="page-tag" style="padding-right: 30px;">
+<div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Further details</strong> | </span>
     <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
-</div> -->
+</div>

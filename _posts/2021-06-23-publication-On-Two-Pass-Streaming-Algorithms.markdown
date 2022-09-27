@@ -10,7 +10,8 @@ book: LIPIcs Volume 207 Approximation, Randomization, and Combinatorial Optimiza
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2107.07841
-publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
+conference: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
+publication: https://arxiv.org/abs/2107.07841
 video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
 slides: APPROX-21_slides.pdf
 poster: APPROX-21_poster.pdf
@@ -37,7 +38,7 @@ Our results imply that further improvements, if possible, require new techniques
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.publication }}" target="_blank" class="tag">APPROX21</a>
+    <a href="{{ page.conference }}" target="_blank" class="tag">APPROX21</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
