@@ -3,11 +3,11 @@ layout: post
 
 title: Closing the Gap between Weighted and Unweighted Matching in the Sliding Window Model
 year: 2022
-subtitle: Cezar-Mihail Alexandru, Pavel Dvořák, Christian Konrad, Kheeran K. Naidu
+subtitle: <a href="https://research-information.bris.ac.uk/en/persons/cezar-alexandru" target="_blank">Cezar-Mihail Alexandru</a>, <a href="https://iuuk.mff.cuni.cz/~koblich/" target="_blank">Pavel Dvořák</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, <strong>Kheeran K. Naidu</strong>
 description: arXiv Computing Research Repository April 2022
 description_short: CoRR Apr2022
 book: arXiv Volume abs/2204.04717 Computing Research Repository (CoRR)
-tags: [Publications]
+tags: [Pre-Print]
 latex: True
 arxiv: https://arxiv.org/abs/2204.04717
 publication: https://arxiv.org/abs/2204.04717
