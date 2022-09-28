@@ -7,7 +7,7 @@ subtitle: <a href="https://research-information.bris.ac.uk/en/persons/cezar-alex
 description: arXiv Computing Research Repository April 2022
 description_short: CoRR Apr2022
 book: arXiv Volume abs/2204.04717 Computing Research Repository (CoRR)
-tags: [Pre-Print]
+tags: [Pre-Prints]
 latex: True
 arxiv: https://arxiv.org/abs/2204.04717
 publication: https://arxiv.org/abs/2204.04717
