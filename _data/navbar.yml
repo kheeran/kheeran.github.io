@@ -2,7 +2,7 @@ Home:
   name: Home
   icon: fa fa-home
   link: ""
-All Tags:
-  name: All Tags
-  icon: fa fa-tags
-  link: tags/
+full_cv:
+  name: CV
+  icon: fa fa-file
+  link: assets/attachments/Kheeran_K_Naidu_Research_CV.pdf
