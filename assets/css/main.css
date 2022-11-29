@@ -1441,7 +1441,8 @@ a.newer-posts:hover {
 }
 
 .blog-tags h2 {
-  color: #263959;
+  font-size: large;
+  font-weight: normal;
   margin: 10px 0;
   float: left;
 }

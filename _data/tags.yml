@@ -1,8 +1,11 @@
 Talks:
-  hidden: True
+  hidden: False
 Presenter:
   hidden: True
 Attendee:
   hidden: True
 Events:
   hidden: True
+Teaching:
+  hidden: False
+  more: True

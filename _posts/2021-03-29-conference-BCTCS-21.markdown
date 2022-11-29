@@ -4,10 +4,10 @@ layout: post
 title: 37th British Colloquium for Theoretical Computer Science
 title_short: BCTCS
 year: 2021
-subtitle: University of Liverpool, Liverpool, UK (Virtual)
+subtitle: University of Liverpool, UK (Virtual)
 description: Presenter and Attendee
 info: https://intranet.csc.liv.ac.uk/~bctcs2021/
-tags: [Events, Presenter, Attendee]
+tags: [Events, Presenter, Attendee, Talks]
 latex: true
 slides: BCTCS-21.pdf
 ---

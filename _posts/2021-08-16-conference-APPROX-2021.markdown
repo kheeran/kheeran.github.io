@@ -4,10 +4,10 @@ layout: post
 title: 24th International Conference on Approximation Algorithms for Combinatorial Optimization Problems
 title_short: APPROX
 year: 2021
-subtitle: University of Washington, Seattle, Washington (Virtual)
+subtitle: University of Washington, Seattle (Virtual)
 description: Presenter and Attendee
 info: https://approxconference.wordpress.com/approx-2021/
-tags: [Events, Presenter, Attendee]
+tags: [Events, Presenter, Attendee, Talks]
 latex: true
 slides: APPROX-21_slides.pdf
 poster: APPROX-21_poster.pdf
