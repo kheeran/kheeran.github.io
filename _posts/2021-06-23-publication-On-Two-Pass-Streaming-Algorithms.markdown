@@ -13,8 +13,8 @@ arxiv: https://arxiv.org/abs/2107.07841
 conference: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2021.19
 publication: https://arxiv.org/abs/2107.07841
 video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
-slides: APPROX-21_slides.pdf
-poster: APPROX-21_poster.pdf
+slides: /assets/attachments/APPROX-21_slides.pdf
+poster: /assets/attachments/APPROX-21_poster.pdf
 dblp: https://dblp.org/rec/conf/approx/KonradN21.html
 ---
 
@@ -43,8 +43,8 @@ Our results imply that further improvements, if possible, require new techniques
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
     <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.poster }}" target="_blank" class="tag">Poster</a>
+    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
+    <a href="{{site.baseurl}}{{ page.poster }}" target="_blank" class="tag">Poster</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Further details</strong> | </span>

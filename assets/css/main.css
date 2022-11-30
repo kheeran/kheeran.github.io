@@ -1420,6 +1420,7 @@ a.newer-posts:hover {
   margin-left: 0.25em;
   color: #263959;
   border: 1px solid #263959;
+  white-space: nowrap;
 }
 
 .page-tag a:hover {

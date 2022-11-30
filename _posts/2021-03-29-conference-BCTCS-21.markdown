@@ -5,11 +5,11 @@ title: 37th British Colloquium for Theoretical Computer Science
 title_short: BCTCS
 year: 2021
 subtitle: University of Liverpool, UK (Virtual)
-description: Presenter and Attendee
+description: A Unifying Class of Algorithms for Semi-Streaming Bipartite Maximum Matching
 info: https://intranet.csc.liv.ac.uk/~bctcs2021/
 tags: [Events, Presenter, Attendee, Talks]
 latex: true
-slides: BCTCS-21.pdf
+slides: /assets/attachments/BCTCS-21.pdf
 ---
 My talk at the colloquium was on the following:
 
@@ -24,5 +24,5 @@ The talk is based on joint work with Christian Konrad.
 
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Colloquium talk</strong> | </span>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
+    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
 </div>

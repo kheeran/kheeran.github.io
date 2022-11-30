@@ -5,10 +5,10 @@ title: School of Computer Science, Electrical and Electronic Engineering, and En
 title_short: SCEEM PGR
 year: 2021
 subtitle: University of Bristol, UK (Virtual)
-description: Presenter and Attendee
+description: Finding Matchings in the Semi-Streaming Model
 info: False
 tags: [Events, Presenter, Attendee, Talks]
-slides: SCEEM-PGR-21.pdf
+slides: /assets/attachments/SCEEM-PGR-21.pdf
 latex: True
 ---
 This was an internal conference held for postgraduate research (PGR) students in the School of Computer Science, Electrical and Electronic Engineering, and Engineering Maths (SCEEM) to showcase their research. My talk was on the following:
@@ -21,5 +21,5 @@ Finding a maximum bipartite matching is a fundamental graph problem which has nu
 
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
+    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
 </div>

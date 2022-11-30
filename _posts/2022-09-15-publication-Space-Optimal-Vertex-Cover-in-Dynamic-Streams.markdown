@@ -13,10 +13,10 @@ arxiv: http://arxiv.org/abs/2209.05623
 conference: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
 publication: http://arxiv.org/abs/2209.05623
 video: https://www.youtube.com/watch?v=-X1QakTbjHs
-slides: APPROX-22_slidesShort.pdf
-longSlides: APPROX-22_longSlides.pdf
-longSlides_handout: APPROX-22_longSlides_handout.pdf
-poster: APPROX-22_poster.pdf
+slides: /assets/attachments/APPROX-22_slidesShort.pdf
+longSlides: /assets/attachments/APPROX-22_longSlides.pdf
+longSlides_handout: /assets/attachments/APPROX-22_longSlides_handout.pdf
+poster: /assets/attachments/APPROX-22_poster.pdf
 dblp: https://dblp.org/rec/conf/approx/NaiduS22.html
 ---
 
@@ -45,13 +45,13 @@ For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound w
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
     <a href="{{ page.video }}" target="_blank" class="tag">YouTube (by Vihan Shah)</a>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.slides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.poster }}" target="_blank" class="tag">Poster</a>
+    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
+    <a href="{{site.baseurl}}{{ page.poster }}" target="_blank" class="tag">Poster</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Long talk</strong> | </span>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.longSlides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}/assets/attachments/{{ page.longSlides_handout }}" target="_blank" class="tag">Handout</a>
+    <a href="{{site.baseurl}}{{ page.longSlides }}" target="_blank" class="tag">Slides</a>
+    <a href="{{site.baseurl}}{{ page.longSlides_handout }}" target="_blank" class="tag">Handout</a>
 </div>
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Further details</strong> | </span>
