@@ -33,12 +33,18 @@ We give the following results:
 
 Similar to Biabani et al.'s **MWM** algorithm, both our algorithms execute multiple instances of the $(2+\varepsilon)$-approximation $\tilde{O}(n)$-space streaming algorithm for **MWM** by Paz and Schwartzman [SODA'17] on different portions of the stream. Our improvements are obtained by selecting these substreams differently. Furthermore, our $(2+\varepsilon)$-approximation algorithm runs the Paz-Schwartzman algorithm in *reverse direction* over some parts of the stream, and in *forward direction* over other parts, which allows for an improved approximation guarantee at the cost of increased space requirements.
 
-
 {% if page.arxiv %}
+{% if page.publication %}
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Latest version</strong> | </span>
+    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
+</div>
+{% else %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Pre-print</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
+{% endif %}
 {% endif %}
 {% if page.publication and page.book_series %}
 <div class="page-tag" style="padding-right: 30px;">

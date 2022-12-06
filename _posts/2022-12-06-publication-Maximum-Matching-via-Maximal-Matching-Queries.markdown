@@ -31,10 +31,17 @@ We study approximation algorithms for **Maximum Matching** that are given access
 
 
 {% if page.arxiv %}
+{% if page.publication %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Latest version</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
+{% else %}
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Pre-print</strong> | </span>
+    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
+</div>
+{% endif %}
 {% endif %}
 {% if page.publication and page.book_series %}
 <div class="page-tag" style="padding-right: 30px;">
