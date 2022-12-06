@@ -7,6 +7,7 @@ subtitle: <a href="http://www.christiankonrad.de/" target="_blank">Christian Kon
 description: Proceedings of the 24th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems
 description_short: APPROX 2021
 book: LIPIcs Volume 207 Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques pp 19:1-19:18
+book_series: LIPIcs
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2107.07841
@@ -32,21 +33,37 @@ Furthermore, we combine the two main techniques, i.e., subsampling followed by t
 Our results imply that further improvements, if possible, require new techniques.
 
 
+
+{% if page.arxiv %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Latest version</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
+{% endif %}
+{% if page.publication and page.book_series %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.conference }}" target="_blank" class="tag">APPROX21</a>
+    <a href="{{ page.publication }}" target="_blank" class="tag">{{ page.book_series }}</a>
 </div>
+{% endif %}
+{% if page.slides or page.poster or page.video %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
-    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}{{ page.poster }}" target="_blank" class="tag">Poster</a>
+    {% if page.video %}<a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>{% endif %}
+    {% if page.slides %}<a href="{{site.baseurl}}{{ page.slides }}" class="tag">Slides</a>{% endif %}
+    {% if page.poster %}<a href="{{site.baseurl}}{{ page.poster }}" class="tag">Poster</a>{% endif %}
 </div>
+{% endif %}
+{% if page.longSlides or page.longSlides_handout%}
+<div class="page-tag" style="padding-right: 30px;">
+    <span id="Attachments"><strong>Long talk</strong> | </span>
+    {% if page.longSlides %}<a href="{{site.baseurl}}{{ page.longSlides }}" class="tag">Slides</a>{% endif %}
+    {% if page.longSlides_handout %}<a href="{{site.baseurl}}{{ page.longSlides_handout }}" class="tag">Handout</a>{% endif %}
+</div>
+{% endif %}
+{% if page.dblp %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Further details</strong> | </span>
     <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
 </div>
+{% endif %}

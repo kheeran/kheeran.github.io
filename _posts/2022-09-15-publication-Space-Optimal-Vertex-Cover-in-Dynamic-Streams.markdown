@@ -7,6 +7,7 @@ subtitle: <strong>Kheeran K. Naidu</strong>, <a href="https://people.cs.rutgers.
 description: Proceedings of the 25th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems
 description_short: APPROX 2022
 book: LIPIcs Volume 245 Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques pp 53:1-53:15
+book_series: LIPIcs
 tags: [Publications]
 latex: True
 arxiv: http://arxiv.org/abs/2209.05623
@@ -34,26 +35,36 @@ For connectivity, Nelson and Yu [SODA~2019] improved the lower bound showing tha
 For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound was improved by Assadi and Shah [ITCS~2022] showing that $O(n^2/\alpha^3)$ bits is sufficient while Dark and Konrad [CCC~2020] have shown that $\Omega(n^2/\alpha^3)$ bits is necessary. The space complexity, however, remains unresolved for many other dynamic graph streaming problems where further improvements can still be made.
 
 
+{% if page.arxiv %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Latest version</strong> | </span>
     <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
 </div>
+{% endif %}
+{% if page.publication and page.book_series %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.conference }}" target="_blank" class="tag">APPROX22</a>
+    <a href="{{ page.publication }}" target="_blank" class="tag">{{ page.book_series }}</a>
 </div>
+{% endif %}
+{% if page.slides or page.poster or page.video %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{ page.video }}" target="_blank" class="tag">YouTube (by Vihan Shah)</a>
-    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}{{ page.poster }}" target="_blank" class="tag">Poster</a>
+    {% if page.video %}<a href="{{ page.video }}" target="_blank" class="tag">YouTube (by Vihan Shah)</a>{% endif %}
+    {% if page.slides %}<a href="{{site.baseurl}}{{ page.slides }}" class="tag">Slides</a>{% endif %}
+    {% if page.poster %}<a href="{{site.baseurl}}{{ page.poster }}" class="tag">Poster</a>{% endif %}
 </div>
+{% endif %}
+{% if page.longSlides or page.longSlides_handout%}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Long talk</strong> | </span>
-    <a href="{{site.baseurl}}{{ page.longSlides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}{{ page.longSlides_handout }}" target="_blank" class="tag">Handout</a>
+    {% if page.longSlides %}<a href="{{site.baseurl}}{{ page.longSlides }}" class="tag">Slides</a>{% endif %}
+    {% if page.longSlides_handout %}<a href="{{site.baseurl}}{{ page.longSlides_handout }}" class="tag">Handout</a>{% endif %}
 </div>
+{% endif %}
+{% if page.dblp %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Further details</strong> | </span>
     <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
 </div>
+{% endif %}
