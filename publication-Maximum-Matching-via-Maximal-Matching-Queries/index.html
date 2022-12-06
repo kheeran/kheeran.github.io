@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>PhD in Computer Science - Kheeran K. Naidu</title>
+	<title>Maximum Matching via Maximal Matching Queries - Kheeran K. Naidu</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Kheeran K. Naidu" property="og:site_name">
   
-    <meta content="PhD in Computer Science" property="og:title">
+    <meta content="Maximum Matching via Maximal Matching Queries" property="og:title">
   
   
     <meta content="article" property="og:type">
   
   
-    <meta content="Supervised by Christian Konrad" property="og:description">
+    <meta content="Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science" property="og:description">
   
   
-    <meta content="https://kheerannaidu.com/postgrad/" property="og:url">
+    <meta content="https://kheerannaidu.com/publication-Maximum-Matching-via-Maximal-Matching-Queries/" property="og:url">
   
   
-    <meta content="2020-09-25T00:00:00+01:00" property="article:published_time">
+    <meta content="2022-12-06T00:00:00+00:00" property="article:published_time">
     <meta content="https://kheerannaidu.com/about/" property="article:author">
   
   
@@ -31,7 +31,7 @@
   
   
     
-    <meta content="Education" property="article:tag">
+    <meta content="Publications" property="article:tag">
     
   
 
@@ -39,19 +39,19 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="PhD in Computer Science">
+    <meta name="twitter:title" content="Maximum Matching via Maximal Matching Queries">
   
   
-    <meta name="twitter:url" content="https://kheerannaidu.com/postgrad/">
+    <meta name="twitter:url" content="https://kheerannaidu.com/publication-Maximum-Matching-via-Maximal-Matching-Queries/">
   
   
-    <meta name="twitter:description" content="Supervised by Christian Konrad">
+    <meta name="twitter:description" content="Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science">
   
   
     <meta name="twitter:image:src" content="https://kheerannaidu.com/assets/img/kheeran.jpg">
   
 
-	<meta name="description" content="Supervised by Christian Konrad">
+	<meta name="description" content="Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
@@ -72,6 +72,17 @@
 	<!-- Styles -->
   <link rel="stylesheet" href="/assets/css/main.css">
   
+  
+  <!-- Latex Parser using MathJax -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> 
   
 </head>
 
@@ -134,11 +145,11 @@
         
         <h1 class="page-title">
     
-    <span>PhD in Computer Science</span>
+    <span>Maximum Matching via Maximal Matching Queries</span>
     
 </h1>
-        <div class="page-subtitle"><span>Algorithms and Complexity Group, University of Bristol</span></div>
-        <div class="page-date"><span>2020-present</span></div>
+        <div class="page-subtitle"><span><a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, <strong>Kheeran K. Naidu</strong>, Arun Steward</span></div>
+        <div class="page-date"><span>2023</span></div>
         <div class="page-details">
           <!-- Handle external links -->
           
@@ -160,24 +171,48 @@
           
           
           
-          <span><a href="https://bristolalgo.github.io/" target="_blank"><i class="fa fa-info"></i></a></span>
+          
           
         </div>
         <div class="page-block-end">
           <div class="page-share">
-            <!-- <a href="https://twitter.com/intent/tweet?text=PhD in Computer Science&url=https://kheerannaidu.com/postgrad/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a> -->
-            <!-- <a href="https://facebook.com/sharer.php?u=https://kheerannaidu.com/postgrad/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a> -->
-            <!-- <a href="https://plus.google.com/share?url=https://kheerannaidu.com/postgrad/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a> -->
+            <!-- <a href="https://twitter.com/intent/tweet?text=Maximum Matching via Maximal Matching Queries&url=https://kheerannaidu.com/publication-Maximum-Matching-via-Maximal-Matching-Queries/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a> -->
+            <!-- <a href="https://facebook.com/sharer.php?u=https://kheerannaidu.com/publication-Maximum-Matching-via-Maximal-Matching-Queries/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a> -->
+            <!-- <a href="https://plus.google.com/share?url=https://kheerannaidu.com/publication-Maximum-Matching-via-Maximal-Matching-Queries/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a> -->
           </div>
           <div class="page-tag">
             
-              <a href="/tag/Education" class="tag"><i class="fa fa-tag"></i> &nbsp; Education</a>
+              <a href="/tag/Publications" class="tag"><i class="fa fa-tag"></i> &nbsp; Publications</a>
             
           </div>
         </div>
       </header>
-      
+      <h4 id="abstract">Abstract</h4>
 
+<p>We study approximation algorithms for <strong>Maximum Matching</strong> that are given access to the input graph solely via an <em>edge-query maximal matching oracle</em>. More specifically, in each round, an algorithm queries a set of potential edges and the oracle returns a maximal matching in the subgraph spanned by the query edges that are also contained in the input graph. This model is more general than the <em>vertex-query model</em> introduced by Binti Khalil and Konrad [FSTTCS’20], where each query consists of a subset of vertices and the oracle returns a maximal matching in the subgraph of the input graph induced by the queried vertices.</p>
+
+<p>In this paper, we give tight bounds for deterministic edge-query algorithms for up to three rounds. In more detail:</p>
+
+<ul>
+  <li>
+    <p>As our main result, we give a deterministic $3$-round edge-query algorithm with approximation factor $0.625$ on bipartite graphs. This result establishes a separation between the edge-query and the vertex-query models since every deterministic 3-round vertex-query algorithm has an approximation factor of at most $0.6$ [Binti Khalil, Konrad, FSTTCS’20], even on bipartite graphs. Our algorithm can also be implemented in the semi-streaming model of computation in a straightforward manner and improves upon the state-of-the-art $3$-pass $0.6111$-approximation algorithm by Feldman and Szarf [APPROX’22] for bipartite graphs.</p>
+  </li>
+  <li>
+    <p>We show that the aforementioned algorithm is optimal in that every deterministic $3$-round edge-query algorithm has an approximation factor of at most $0.625$, even on bipartite graphs.</p>
+  </li>
+  <li>
+    <p>Last, we also give optimal bounds for one and two query rounds, where the best approximation factors achievable are $1/2$ and $1/2 + \Theta(\frac{1}{n})$, respectively, where $n$ is the number of vertices in the input graph.</p>
+  </li>
+</ul>
+
+
+      
+      <div class="page-block-end">
+        <div></div>
+        <div class="copyright">
+          <p>2022 &copy; Kheeran K. Naidu</p>
+        </div>
+      </div>
       
       
     </div> <!-- End Wrap Content -->
