@@ -12,7 +12,7 @@ tags: [Publications]
 latex: True
 arxiv: http://arxiv.org/abs/2209.05623
 conference: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
-publication: http://arxiv.org/abs/2209.05623
+publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
 video: https://www.youtube.com/watch?v=-X1QakTbjHs
 slides: /assets/attachments/APPROX-22_slidesShort.pdf
 longSlides: /assets/attachments/APPROX-22_longSlides.pdf

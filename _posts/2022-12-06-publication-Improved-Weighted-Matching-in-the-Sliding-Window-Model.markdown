@@ -22,7 +22,7 @@ dblp: false
 We consider the **Maximum-weight Matching** (**MWM**) problem in the streaming sliding window model of computation. 
 In this model, the input consists of a sequence of weighted edges on a given vertex set $V$ of size $n$.  
 The objective is to maintain an approximation of a maximum-weight matching in the graph spanned by the $L$ most recent edges, for some integer $L$, using as little space as possible. 
-Prior to our work, the state-of-the-art results were a $(3.5+\varepsilon)$-approximation algorithm for **MWM** by Biabani et al. [ISAAC'21] and a $(3+\varepsilon)$-approximation for (unweighted) **Maximum Matching** (**MM**) by Crouch et al.\ [ESA'13]. Both algorithms use space $\tilde{O}(n)$. 
+Prior to our work, the state-of-the-art results were a $(3.5+\varepsilon)$-approximation algorithm for **MWM** by Biabani et al. [ISAAC'21] and a $(3+\varepsilon)$-approximation for (unweighted) **Maximum Matching** (**MM**) by Crouch et al. [ESA'13]. Both algorithms use space $\tilde{O}(n)$. 
 
 We give the following results:
 
