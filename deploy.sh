@@ -5,6 +5,9 @@ initialBranch=$(git rev-parse --abbrev-ref HEAD)
 if [ "$stashOut" = "No local changes to save" ]; then isStashed=false; else echo "STASHED UNCOMMITTED CHANGES!" ; fi
 git checkout dev
 git pull
+git checkout master
+git pull
+git checkout dev
 commit_id=$(git rev-parse HEAD)
 bundle install
 bundle exec jekyll build
