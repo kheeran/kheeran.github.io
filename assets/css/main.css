@@ -1243,12 +1243,12 @@ footer .copyright {
   text-decoration: underline;
 }
 
-.dynamic-text-short:before {
-  content: " ("
-}
+/* .dynamic-text-short:before {
+  content: "("
+} */
 
 .dynamic-text-short:after {
-  content: ")"
+  content: " - "
 }
 a.older-posts, a.newer-posts {
   font-size: 18px;
