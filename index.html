@@ -51,7 +51,10 @@ layout: main
     </span>
     {% assign dynamic_text_full = post.description %}
     {% assign dynamic_text_short = post.description_short %}
+    {% assign isBold = true %}
     <span><small><em>{% include dynamic_text.html %}</em></small></span>
+    {% assign isBold = false %} 
+    <!-- isBold needs to be set to false to prevent unwanted behaviour -->
   </div>
   {% endunless %}
   {% endif %}{% endfor %}

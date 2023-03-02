@@ -1,6 +1,10 @@
 {% if dynamic_text_full %}
     {% if dynamic_text_short %}
-    <span class="dynamic-text-short">{{ dynamic_text_short }}</span><span class="dynamic-text-full">{{ dynamic_text_full }}</span>
+        {% if isBold %}
+        <span class="dynamic-text-short" style="font-weight: bold;">{{ dynamic_text_short }}</span><span class="dynamic-text-full">{{ dynamic_text_full }}</span>
+        {% else %}
+        <span class="dynamic-text-short">{{ dynamic_text_short }}</span><span class="dynamic-text-full">{{ dynamic_text_full }}</span>
+        {% endif %}
     {% else %}
     <span>{{ dynamic_text_full }}</span>
     {% endif %}

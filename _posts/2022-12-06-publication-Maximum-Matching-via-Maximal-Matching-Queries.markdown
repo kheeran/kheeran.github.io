@@ -3,7 +3,7 @@ layout: post
 
 title: Maximum Matching via Maximal Matching Queries
 year: 2023
-subtitle: <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, <strong>Kheeran K. Naidu</strong>, Arun Steward
+subtitle: <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu, Arun Steward
 description: Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science
 description_short: STACS 2023
 book: False

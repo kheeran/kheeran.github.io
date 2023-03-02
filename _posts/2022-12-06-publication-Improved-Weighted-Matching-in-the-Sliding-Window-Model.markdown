@@ -3,7 +3,7 @@ layout: post
 
 title: Improved Weighted Matching in the Sliding Window Model
 year: 2023
-subtitle: <a href="https://research-information.bris.ac.uk/en/persons/cezar-alexandru" target="_blank">Cezar-Mihail Alexandru</a>, <a href="https://iuuk.mff.cuni.cz/~koblich/" target="_blank">Pavel Dvořák</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, <strong>Kheeran K. Naidu</strong>
+subtitle: <a href="https://research-information.bris.ac.uk/en/persons/cezar-alexandru" target="_blank">Cezar-Mihail Alexandru</a>, <a href="https://iuuk.mff.cuni.cz/~koblich/" target="_blank">Pavel Dvořák</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu
 description: Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science
 description_short: STACS 2023
 book: false

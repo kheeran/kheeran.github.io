@@ -3,7 +3,7 @@ layout: post
 
 title: Space Optimal Vertex Cover in Dynamic Streams
 year: 2022
-subtitle: <strong>Kheeran K. Naidu</strong>, <a href="https://people.cs.rutgers.edu/~vjs69/" target="_blank">Vihan Shah</a>
+subtitle: Kheeran K. Naidu, <a href="https://people.cs.rutgers.edu/~vjs69/" target="_blank">Vihan Shah</a>
 description: Proceedings of the 25th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems
 description_short: APPROX 2022
 book: LIPIcs Volume 245 Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques pp 53:1-53:15
