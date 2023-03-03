@@ -7,12 +7,9 @@
     <meta content="{{ site.title }}" property="og:site_name">
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
-  {% else %}
-    <meta content="{{ site.title }}" property="og:title">
-  {% endif %}
-  {% if page.title %}
     <meta content="article" property="og:type">
   {% else %}
+    <meta content="{{ site.title }}" property="og:title">
     <meta content="website" property="og:type">
   {% endif %}
   {% if page.description %}
@@ -25,8 +22,8 @@
   {% endif %}
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-    <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
+  <!-- <meta content="{{ site.url }}/about/" property="article:author"> -->
   {% if page.img %}
     <meta content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.img }}" property="og:image">
   {% else %}
