@@ -6,11 +6,12 @@ year: 2023
 subtitle: <a href="https://research-information.bris.ac.uk/en/persons/cezar-alexandru" target="_blank">Cezar-Mihail Alexandru</a>, <a href="https://iuuk.mff.cuni.cz/~koblich/" target="_blank">Pavel Dvořák</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu
 description: Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science
 description_short: STACS 2023
-book: false
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2204.04717
-publication: false
+publication: https://doi.org/10.4230/LIPIcs.STACS.2023.6
+book: LIPIcs Volume 245 40th International Symposium on Theoretical Aspects of Computer Science pp 6:1-6:21
+book_series: LIPIcs
 video: false
 slides: false
 poster: false
@@ -33,43 +34,5 @@ We give the following results:
 
 Similar to Biabani et al.'s **MWM** algorithm, both our algorithms execute multiple instances of the $(2+\varepsilon)$-approximation $\tilde{O}(n)$-space streaming algorithm for **MWM** by Paz and Schwartzman [SODA'17] on different portions of the stream. Our improvements are obtained by selecting these substreams differently. Furthermore, our $(2+\varepsilon)$-approximation algorithm runs the Paz-Schwartzman algorithm in *reverse direction* over some parts of the stream, and in *forward direction* over other parts, which allows for an improved approximation guarantee at the cost of increased space requirements.
 
-{% if page.arxiv %}
-{% if page.publication %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Latest version</strong> | </span>
-    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
-</div>
-{% else %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Pre-print</strong> | </span>
-    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
-</div>
-{% endif %}
-{% endif %}
-{% if page.publication and page.book_series %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.publication }}" target="_blank" class="tag">{{ page.book_series }}</a>
-</div>
-{% endif %}
-{% if page.slides or page.poster or page.video %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference talk</strong> | </span>
-    {% if page.video %}<a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>{% endif %}
-    {% if page.slides %}<a href="{{site.baseurl}}{{ page.slides }}" class="tag">Slides</a>{% endif %}
-    {% if page.poster %}<a href="{{site.baseurl}}{{ page.poster }}" class="tag">Poster</a>{% endif %}
-</div>
-{% endif %}
-{% if page.longSlides or page.longSlides_handout%}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Long talk</strong> | </span>
-    {% if page.longSlides %}<a href="{{site.baseurl}}{{ page.longSlides }}" class="tag">Slides</a>{% endif %}
-    {% if page.longSlides_handout %}<a href="{{site.baseurl}}{{ page.longSlides_handout }}" class="tag">Handout</a>{% endif %}
-</div>
-{% endif %}
-{% if page.dblp %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Further details</strong> | </span>
-    <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
-</div>
-{% endif %}
+
+{% include publication_footer.html %}

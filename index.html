@@ -38,6 +38,9 @@ layout: main
           {% assign list = list_str | split: ' & ' %}
           {% assign key = list[0] %}
           {% assign icon = list[1] %}
+          {% if key == 'arxiv' and post[key] == false and post.publication %}
+          {% assign key = 'publication' %}
+          {% endif %}
           {% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i>&nbsp;{{ key }}</a>{% endif %}
           {% endfor %}
         </div>

@@ -6,11 +6,12 @@ year: 2023
 subtitle: <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu, Arun Steward
 description: Proceedings of the 40th Symposium on Theoretical Aspects of Computer Science
 description_short: STACS 2023
-book: False
 tags: [Publications]
 latex: True
 arxiv: False
-publication: False
+publication: https://doi.org/10.4230/LIPIcs.STACS.2023.41
+book: LIPIcs Volume 245 40th International Symposium on Theoretical Aspects of Computer Science pp 41:1-41:22
+book_series: LIPIcs
 video: False
 slides: False
 poster: False
@@ -30,43 +31,4 @@ We study approximation algorithms for **Maximum Matching** that are given access
 * Last, we also give optimal bounds for one and two query rounds, where the best approximation factors achievable are $1/2$ and $1/2 + \Theta(\frac{1}{n})$, respectively, where $n$ is the number of vertices in the input graph.  
 
 
-{% if page.arxiv %}
-{% if page.publication %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Latest version</strong> | </span>
-    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
-</div>
-{% else %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Pre-print</strong> | </span>
-    <a href="{{ page.arxiv }}" target="_blank" class="tag">arXiv</a>
-</div>
-{% endif %}
-{% endif %}
-{% if page.publication and page.book_series %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference paper</strong> | </span>
-    <a href="{{ page.publication }}" target="_blank" class="tag">{{ page.book_series }}</a>
-</div>
-{% endif %}
-{% if page.slides or page.poster or page.video %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference talk</strong> | </span>
-    {% if page.video %}<a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>{% endif %}
-    {% if page.slides %}<a href="{{site.baseurl}}{{ page.slides }}" class="tag">Slides</a>{% endif %}
-    {% if page.poster %}<a href="{{site.baseurl}}{{ page.poster }}" class="tag">Poster</a>{% endif %}
-</div>
-{% endif %}
-{% if page.longSlides or page.longSlides_handout%}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Long talk</strong> | </span>
-    {% if page.longSlides %}<a href="{{site.baseurl}}{{ page.longSlides }}" class="tag">Slides</a>{% endif %}
-    {% if page.longSlides_handout %}<a href="{{site.baseurl}}{{ page.longSlides_handout }}" class="tag">Handout</a>{% endif %}
-</div>
-{% endif %}
-{% if page.dblp %}
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Further details</strong> | </span>
-    <a href="{{ page.dblp }}" target="_blank" class="tag">dblp</a>
-</div>
-{% endif %}
+{% include publication_footer.html %}
