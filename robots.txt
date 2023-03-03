@@ -1,5 +1,6 @@
 User-agent: *
-Disallow: /assets/*
+Disallow: /assets/attachments/*
+Disallow: /assets/img/archive/*
 Disallow: /Jay-and-Marie-Bday
 
 User-agent: *
