@@ -1,3 +1,6 @@
+{% assign list_array = list_array_str | split:', ' %}
+{% assign list_array_simple = list_array_simple_str | split:', ' %}
+
 <div class="home-page-tag">
     {% for list_str in list_array %}
     {% assign list = list_str | split: ' & ' %}
@@ -10,10 +13,10 @@
     {% endif %}
     {% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i>&nbsp;{{ key_text }}</a>{% endif %}
     {% endfor %}
-  </div>
-  {% for list_simple_str in list_array_simple %}
-  {% assign list = list_simple_str | split: ' & ' %}
-  {% assign key = list[0] %}
-  {% assign icon = list[1] %}
-  {% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i></a>{% endif %}
-  {% endfor %}
+</div>
+{% for list_simple_str in list_array_simple %}
+{% assign list = list_simple_str | split: ' & ' %}
+{% assign key = list[0] %}
+{% assign icon = list[1] %}
+{% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i></a>{% endif %}
+{% endfor %}
