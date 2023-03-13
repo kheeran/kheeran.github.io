@@ -32,24 +32,8 @@ layout: main
       {% assign dynamic_text_short = post.title_short %}
       <em>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{% include dynamic_text.html %}</a>{% else %}{% include dynamic_text.html %}{% endif %}</em>
       <small>
-        <!-- Handle external links -->
-        <div class="home-page-tag">
-          {% for list_str in list_array %}
-          {% assign list = list_str | split: ' & ' %}
-          {% assign key = list[0] %}
-          {% assign icon = list[1] %}
-          {% if key == 'arxiv' and post[key] == false and post.publication %}
-          {% assign key = 'publication' %}
-          {% endif %}
-          {% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i>&nbsp;{{ key }}</a>{% endif %}
-          {% endfor %}
-        </div>
-          {% for list_simple_str in list_array_simple %}
-          {% assign list = list_simple_str | split: ' & ' %}
-          {% assign key = list[0] %}
-          {% assign icon = list[1] %}
-          {% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i></a>{% endif %}
-          {% endfor %}
+        <!-- Handle post links and tags -->
+        {% include post_tags.html %}
       </small>
     </span>
     {% assign dynamic_text_full = post.description %}
