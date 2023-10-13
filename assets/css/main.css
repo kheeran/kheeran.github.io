@@ -928,9 +928,9 @@ table tfoot td {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  -webkit-justify-content: start;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: start;
   position: fixed;
   top: 0;
   left: 0;
