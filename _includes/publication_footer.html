@@ -17,17 +17,19 @@
     <a href="{{ page.publication }}" target="_blank" class="tag">{{ page.book_series }}</a>
 </div>
 {% endif %}
-{% if page.slides or page.poster or page.video %}
+{% if page.slides or page.poster or page.video or page.slides_handout %}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Conference talk</strong> | </span>
-    {% if page.video %}<a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>{% endif %}
+    {% if page.video %}<a href="{{ page.video }}" target="_blank" class="tag">Video</a>{% endif %}
     {% if page.slides %}<a href="{{site.baseurl}}{{ page.slides }}" class="tag">Slides</a>{% endif %}
     {% if page.poster %}<a href="{{site.baseurl}}{{ page.poster }}" class="tag">Poster</a>{% endif %}
+    {% if page.slides_handout %}<a href="{{site.baseurl}}{{ page.slides_handout }}" class="tag">Handout</a>{% endif %}
 </div>
 {% endif %}
-{% if page.longSlides or page.longSlides_handout%}
+{% if page.longVideo or page.longSlides or page.longSlides_handout%}
 <div class="page-tag" style="padding-right: 30px;">
     <span id="Attachments"><strong>Long talk</strong> | </span>
+    {% if page.longVideo %}<a href="{{site.baseurl}}{{ page.longVideo }}" class="tag">Video</a>{% endif %}
     {% if page.longSlides %}<a href="{{site.baseurl}}{{ page.longSlides }}" class="tag">Slides</a>{% endif %}
     {% if page.longSlides_handout %}<a href="{{site.baseurl}}{{ page.longSlides_handout }}" class="tag">Handout</a>{% endif %}
 </div>

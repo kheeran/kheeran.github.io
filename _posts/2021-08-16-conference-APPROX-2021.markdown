@@ -16,9 +16,4 @@ video: https://www.youtube.com/watch?v=0OwsPy4B3Rc
 ---
 This talk was for the corresponding conference publication [On Two-Pass Streaming Algorithms for Maximum Bipartite Matching](/publication-On-Two-Pass-Streaming-Algorithms).
 
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
-    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}{{ page.poster }}" target="_blank" class="tag">Poster</a>
-</div>
+{% include publication_footer.html %}

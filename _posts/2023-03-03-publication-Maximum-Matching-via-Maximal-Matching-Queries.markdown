@@ -13,7 +13,7 @@ publication: https://doi.org/10.4230/LIPIcs.STACS.2023.41
 book: LIPIcs Volume 245 40th International Symposium on Theoretical Aspects of Computer Science pp 41:1-41:22
 book_series: LIPIcs
 video: False
-slides: /assets/attachments/STACS23a_slides.pdf
+slides: /assets/attachments/STACS-23a_slides.pdf
 poster: False
 dblp: False
 ---

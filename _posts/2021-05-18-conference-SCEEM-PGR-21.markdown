@@ -16,7 +16,4 @@ This was an internal conference held for postgraduate research (PGR) students in
 #### {{ page.description }}
 This talk was a general overview on matchings and the semi-streaming model of computation. It included the general approach for increasing the size of maximal matching via augmenting paths, briefly touching on the results of my work [On Two-Pass Streaming Algorithms for Maximum Bipartite Matching](/publication-On-Two-Pass-Streaming-Algorithms).
 
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{site.baseurl}}{{ page.slides }}" class="tag">Slides</a>
-</div>
+{% include publication_footer.html %}

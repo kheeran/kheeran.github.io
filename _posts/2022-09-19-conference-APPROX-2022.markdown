@@ -14,9 +14,5 @@ poster: /assets/attachments/APPROX-22_poster.pdf
 ---
 This talk was for the corresponding conference publication [Space Optimal Vertex Cover in Dynamic Streams](/publication-Space-Optimal-Vertex-Cover-in-Dynamic-Streams). The [pre-recorded](https://www.youtube.com/watch?v=-X1QakTbjHs) talk is by my co-author Vihan Shah.
 
-<div class="page-tag" style="padding-right: 30px;">
-    <span id="Attachments"><strong>Conference talk</strong> | </span>
-    <a href="{{ page.video }}" target="_blank" class="tag">YouTube</a>
-    <a href="{{site.baseurl}}{{ page.slides }}" target="_blank" class="tag">Slides</a>
-    <a href="{{site.baseurl}}{{ page.poster }}" target="_blank" class="tag">Poster</a>
-</div>
+
+{% include publication_footer.html %}

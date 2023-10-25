@@ -13,7 +13,7 @@ latex: True
 arxiv: http://arxiv.org/abs/2209.05623
 conference: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
 publication: https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2022.53
-video: https://www.youtube.com/watch?v=-X1QakTbjHs
+longVideo: https://www.youtube.com/watch?v=-X1QakTbjHs
 slides: /assets/attachments/APPROX-22_slidesShort.pdf
 longSlides: /assets/attachments/APPROX-22_longSlides.pdf
 longSlides_handout: /assets/attachments/APPROX-22_longSlides_handout.pdf
@@ -23,7 +23,7 @@ dblp: https://dblp.org/rec/conf/approx/NaiduS22.html
 
 This is my very first student-only publication which will appear in the proceedings of the 25th International Workshop on Approximation Algorithms for Combinatorial Optimization Problems (APPROX 2022) with co-author Vihan Shah from Rutgers University. 
 
-I am grateful for my co-author Vihan and all our in-depth discussions on this work and its presentation. Similarly, the stimulating discussions regarding this work with my supervisor, Christian Konrad, and Vihan's supervisor, Sepehr Assadi, were invaluable. Thank you!
+I am grateful for my co-author Vihan and all our in-depth discussions on this work and its presentation. Similarly, the discussions regarding this work with my supervisor, Christian Konrad, and Vihan's supervisor, Sepehr Assadi, were invaluable. Thank you!
 
 #### Abstract
 
@@ -35,3 +35,5 @@ For connectivity, Nelson and Yu [SODA~2019] improved the lower bound showing tha
 For finding an \textsf{$\alpha$-approximate maximum matching}, the upper bound was improved by Assadi and Shah [ITCS~2022] showing that $O(n^2/\alpha^3)$ bits is sufficient while Dark and Konrad [CCC~2020] have shown that $\Omega(n^2/\alpha^3)$ bits is necessary. The space complexity, however, remains unresolved for many other dynamic graph streaming problems where further improvements can still be made.
 
 {% include publication_footer.html %}
+
+Note that the recorded long talk was given by my co-author Vihan Shah.
