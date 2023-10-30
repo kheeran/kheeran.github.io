@@ -1163,7 +1163,7 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 11rem;
+  /* min-height: 11rem; */
   -webkit-border-radius: 10px;
           border-radius: 10px;
   overflow: hidden;
@@ -1439,17 +1439,22 @@ a.newer-posts:hover {
 }
 
 .blog-tags h1 {
-  font-size: 30px;
-  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  float: left;
   line-height: 1.3;
-  color: #263959;
+  /* color: #263959; */
 }
 
 .blog-tags h2 {
   font-size: large;
-  font-weight: normal;
+  font-weight: bold;
   margin: 10px 0;
   float: left;
+}
+
+.blog-tags h2 small{
+  font-weight: normal;
 }
 
 .blog-tags h2 a {
