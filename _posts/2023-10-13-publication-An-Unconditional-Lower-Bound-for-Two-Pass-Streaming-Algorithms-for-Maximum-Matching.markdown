@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Lower Bound for Two-pass Streaming Algorithms for Maximum Matching Approximation
+title: An Unconditional Lower Bound for Two-Pass Streaming Algorithms for Maximum Matching Approximation
 year: 2024
 subtitle: <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu
 description: Proceedings of the 2024 ACM-SIAM Symposium on Discrete Algorithms
@@ -24,7 +24,7 @@ In this paper, we give the first unconditional space lower bound for two-pass st
     
 Previously, only a conditional lower bound by Assadi [SODA'22] was known that relates the quality of their lower bound to the maximum density of Ruzsa-Szemerédi graphs (RS-graphs) with matchings of linear sizes. In the best case, i.e., if very dense RS-graphs with linear-sized matchings exist, their lower bound rules out approximation ratios above $0.98$, however, with current knowledge, only approximation factors of $1-o(1)$ are ruled out.
     
-Our lower bound makes use of the information cost trade-off of the *Index* problem  in the two-party communication setting established by Jain et al.  [JACM'09]. To the best of our knowledge, our work is the first that exploits this trade-off result in the context of lower bounds for multi-pass graph streaming algorithms. 
+<!-- Our lower bound makes use of the information cost trade-off of the *Index* problem  in the two-party communication setting established by Jain et al.  [JACM'09]. To the best of our knowledge, our work is the first that exploits this trade-off result in the context of lower bounds for multi-pass graph streaming algorithms.  -->
 
 
 {% include publication_footer.html %}
