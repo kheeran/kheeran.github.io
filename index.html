@@ -10,7 +10,7 @@ layout: main
 <h2 id="{{ this_word | cgi_escape }}">
     {{ this_word }}
     {% if site.data.tags[this_word].more %}
-    <small>&nbsp;<a href="{{ site.baseurl}}/tag/{{ this_word | cgi_escape }}">(see more)</a></small>
+    <small>&nbsp;(<a href="{{ site.baseurl}}/tag/{{ this_word | cgi_escape }}">see more</a>)</small>
     {% endif %}
     {% if site.data.tags[this_word].altText %}
      <small>&nbsp;({{ site.data.tags[this_word].altText }})</small>
