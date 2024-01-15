@@ -1006,7 +1006,8 @@ table tfoot td {
 }
 
 .about p a {
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 0.01rem;
   color: #263959;
 }
 
@@ -1215,7 +1216,8 @@ footer .copyright {
 
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 0.01rem;
   color: #263959;
 }
 
@@ -1418,8 +1420,8 @@ a.newer-posts:hover {
   display: inline;
 }
 
-.home-page-tag a {
-  text-decoration: none;
+.home-page-tag  a {
+  text-decoration: none !important;
   padding: 3px 6px;
   margin-left: 0.25em;
   color: #263959;
@@ -1458,7 +1460,8 @@ a.newer-posts:hover {
 }
 
 .blog-tags h2 a {
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 0.01rem;
   color: #263959;
 }
 
@@ -1484,7 +1487,8 @@ a.newer-posts:hover {
 }
 
 .tags li a {
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 0.01rem;
   color: #263959;
   display: inline-block;
   padding: 5px 10px;
@@ -1511,7 +1515,8 @@ a.newer-posts:hover {
 }
 
 .tag-list span a {
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 0.01rem;
   color: #263959;
 }
 
