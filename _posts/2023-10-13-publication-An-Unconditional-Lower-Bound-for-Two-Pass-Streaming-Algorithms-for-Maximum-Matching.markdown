@@ -4,13 +4,13 @@ layout: post
 title: An Unconditional Lower Bound for Two-Pass Streaming Algorithms for Maximum Matching Approximation
 year: 2024
 subtitle: <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu
-description: Proceedings of the 2024 ACM-SIAM Symposium on Discrete Algorithms
+description: Proceedings of the 35th ACM-SIAM Symposium on Discrete Algorithms
 description_short: SODA 2024
 tags: [Publications]
 latex: True
 arxiv: False
 publication: https://epubs.siam.org/doi/10.1137/1.9781611977912.102
-book: Proceedings of the 2023 ACM-SIAM Symposium on Discrete Algorithms
+book: Proceedings of the 35th ACM-SIAM Symposium on Discrete Algorithms
 book_series: SIAM
 video: False
 slides: /assets/attachments/SODA24_slides.pdf
