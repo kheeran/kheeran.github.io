@@ -14,6 +14,6 @@ slides: /assets/attachments/STACS-23a_slides.pdf
 slides_handout: /assets/attachments/STACS-23a_slides_handout.pdf
 
 ---
-This talk was for the corresponding conference publication [2023-03-03-publication-Maximum-Matching-via-Maximal-Matching-Queries.markdown](/publication-Maximum-Matching-via-Maximal-Matching-Queries).
+This talk was for the corresponding [conference publication](/publication-Maximum-Matching-via-Maximal-Matching-Queries).
 
 {% include publication_footer.html %}
