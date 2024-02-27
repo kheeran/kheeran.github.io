@@ -20,9 +20,12 @@ layout: main
   {% unless post.hidden %}
   <div class="tag-list" style="padding-bottom:10px;">      
     <span>
+      {% if this_word == "Education" %}
+      <small>{{ post.year}}</small> | 
+      {% endif %}
       {% assign dynamic_text_full = post.title %}
       {% assign dynamic_text_short = post.title_short %}
-      <em>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{% include dynamic_text.html %}</a>{% else %}{% include dynamic_text.html %}{% endif %}</em>
+      <strong>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{% include dynamic_text.html %}</a>{% else %}{% include dynamic_text.html %}{% endif %}</strong>
       <small>
         <!-- Handle post links and tags -->
         {% assign list_array_str = "arxiv & fa fa-file-text-o, video & fa fa-video-camera, slides & fa fa-file-powerpoint-o,  link & fa fa-link" %}
@@ -31,10 +34,12 @@ layout: main
       </small>
     </span>
     <span>
-      {% unless this_word == "Publications" %}
+      {% unless this_word == "Publications" or this_word == "Education" %}
       <small>{{ post.year}}</small> | 
       {% endunless %}
-      {{ post.subtitle}}
+      {% if post.subtitle.size > 1 %}
+      <em>{{ post.subtitle}}</em>
+      {% endif %}
     </span>
     {% assign dynamic_text_full = post.description %}
     {% assign dynamic_text_short = post.description_short %}

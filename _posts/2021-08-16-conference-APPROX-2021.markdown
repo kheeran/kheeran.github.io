@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: 24th International Conference on Approximation Algorithms for Combinatorial Optimization Problems
-title_short: APPROX
-year: 2021
+title: On Two-Pass Streaming Algorithms for Maximum Bipartite Matching
 subtitle: University of Washington, Seattle (Virtual)
-description: On Two-Pass Streaming Algorithms for Maximum Bipartite Matching
+description: 24th International Conference on Approximation Algorithms for Combinatorial Optimization Problems
+description_short: APPROX
+year: 2021
 info: https://approxconference.wordpress.com/approx-2021/
 tags: [Events, Presenter, Attendee, Talks]
 latex: true

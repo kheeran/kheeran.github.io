@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: 25th International Conference on Approximation Algorithms for Combinatorial Optimization Problems
-title_short: APPROX
-year: 2022
+title: Space Optimal Vertex Cover in Dynamic Streams
 subtitle: University of Illinois, Urbana-Champaign (Virtual)
-description: Space Optimal Vertex Cover in Dynamic Streams
+description: 25th International Conference on Approximation Algorithms for Combinatorial Optimization Problems
+description_short: APPROX
+year: 2022
 info: https://approxconference.wordpress.com/
 tags: [Events, Presenter, Attendee, Talks]
 latex: true

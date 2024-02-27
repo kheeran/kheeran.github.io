@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: School of Computer Science, Electrical and Electronic Engineering, and Engineering Maths PGR Conference
-title_short: SCEEM PGR
-year: 2021
+title: Finding Matchings in the Semi-Streaming Model
 subtitle: University of Bristol, UK (Virtual)
-description: Finding Matchings in the Semi-Streaming Model
+description: School of Computer Science, Electrical and Electronic Engineering, and Engineering Maths PGR Conference
+description_short: SCEEM PGR
+year: 2021
 info: False
 tags: [Events, Presenter, Attendee, Talks]
 slides: /assets/attachments/SCEEM-PGR-21.pdf

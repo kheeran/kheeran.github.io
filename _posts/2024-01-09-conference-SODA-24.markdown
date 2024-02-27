@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: 35th ACM-SIAM Symposium on Discrete Algorithms
-title_short: SODA
-year: 2024
+title: An Unconditional Lower Bound for Two-Pass Streaming Algorithms for Maximum Matching Approximation
 subtitle: Alexandria, Virginia, USA
-description: An Unconditional Lower Bound for Two-Pass Streaming Algorithms for Maximum Matching Approximation
+description: 35th ACM-SIAM Symposium on Discrete Algorithms
+description_short: SODA
+year: 2024
 info: https://www.siam.org/conferences/cm/conference/soda24
 tags: [Events, Presenter, Attendee, Talks]
 latex: true

@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: 37th British Colloquium for Theoretical Computer Science
-title_short: BCTCS
-year: 2021
+title: A Unifying Class of Algorithms for Semi-Streaming Bipartite Maximum Matching
 subtitle: University of Liverpool, UK (Virtual)
-description: A Unifying Class of Algorithms for Semi-Streaming Bipartite Maximum Matching
+description: 37th British Colloquium for Theoretical Computer Science
+description_short: BCTCS
+year: 2021
 info: https://intranet.csc.liv.ac.uk/~bctcs2021/
 tags: [Events, Presenter, Attendee, Talks]
 latex: true

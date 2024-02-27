@@ -1,12 +1,11 @@
 ---
 layout: post
 
-title: 40th Symposium on Theoretical Aspects of Computer Science
-title_short: STACS
-year: 2023
+title: Maximum Matching via Maximal Matching Queries
 subtitle: University of Hamburg, Germany
-description: Maximum Matching via Maximal Matching Queries
- 
+description: 40th Symposium on Theoretical Aspects of Computer Science
+description_short: STACS
+year: 2023
 info: https://www.conferences.uni-hamburg.de/event/272/page/153-home
 tags: [Events, Presenter, Attendee, Talks]
 latex: true
