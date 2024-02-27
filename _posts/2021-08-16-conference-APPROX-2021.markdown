@@ -6,7 +6,6 @@ title_short: APPROX
 year: 2021
 subtitle: University of Washington, Seattle (Virtual)
 description: On Two-Pass Streaming Algorithms for Maximum Bipartite Matching
- 
 info: https://approxconference.wordpress.com/approx-2021/
 tags: [Events, Presenter, Attendee, Talks]
 latex: true

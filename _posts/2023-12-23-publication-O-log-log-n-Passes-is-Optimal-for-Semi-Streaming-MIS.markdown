@@ -3,7 +3,7 @@ layout: post
 
 title: O(log log n) Passes is Optimal for Semi-Streaming Maximal Independent Set
 year: 2024
-subtitle: <a href="https://sepehr.assadi.info/" target="_blank">Sepehr Assadi</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, Kheeran K. Naidu, <a href="https://student.cs.uwaterloo.ca/~jsundare/" target="_blank">Janani Sundaresan</a>
+subtitle: with <a href="https://sepehr.assadi.info/" target="_blank">Sepehr Assadi</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, <a href="https://student.cs.uwaterloo.ca/~jsundare/" target="_blank">Janani Sundaresan</a>
 description: Proceedings of the 56th Annual ACM Symposium on Theory of Computing
 description_short: STOC 2024
 tags: [Publications]

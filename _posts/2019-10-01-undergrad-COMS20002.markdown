@@ -8,5 +8,5 @@ subtitle: University of Bristol
 description: Undergraduate Teaching Assistant
 info: https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMS20002
 tags: [Teaching]
-hidden: True
+hidden: False
 ---

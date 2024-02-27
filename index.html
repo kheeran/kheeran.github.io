@@ -9,20 +9,16 @@ layout: main
 {% unless site.data.tags[this_word].hidden %}
 <h2 id="{{ this_word | cgi_escape }}">
     {{ this_word }}
-    {% if site.data.tags[this_word].more %}
-    <small>&nbsp;(<a href="{{ site.baseurl}}/tag/{{ this_word | cgi_escape }}">see more</a>)</small>
-    {% endif %}
     {% if site.data.tags[this_word].altText %}
      <small>&nbsp;({{ site.data.tags[this_word].altText }})</small>
+    {% endif %}
+    {% if site.data.tags[this_word].more %}
+    <small>&nbsp;(<a href="{{ site.baseurl}}/tag/{{ this_word | cgi_escape }}">see more</a>)</small>
     {% endif %}
   </h2>
   {% for post in site.tags[this_word] %}{% if post.title != null %}
   {% unless post.hidden %}
   <div class="tag-list" style="padding-bottom:10px;">      
-    <span>
-      <small>{{ post.year}}</small> | 
-      {{ post.subtitle}}
-    </span>
     <span>
       {% assign dynamic_text_full = post.title %}
       {% assign dynamic_text_short = post.title_short %}
@@ -33,6 +29,12 @@ layout: main
         {% assign list_array_simple_str = "info & fa fa-info" %}
         {% include post_tags.html %}
       </small>
+    </span>
+    <span>
+      {% unless this_word == "Publications" %}
+      <small>{{ post.year}}</small> | 
+      {% endunless %}
+      {{ post.subtitle}}
     </span>
     {% assign dynamic_text_full = post.description %}
     {% assign dynamic_text_short = post.description_short %}

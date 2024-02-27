@@ -8,6 +8,6 @@ Events:
   hidden: True
 Teaching:
   hidden: False
-  more: True
+  more: False
 Publications:
-  altText: author names are in alphabetical order
+  altText: by convention, author names are in alphabetical order
