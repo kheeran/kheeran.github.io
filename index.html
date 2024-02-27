@@ -28,7 +28,7 @@ layout: main
       <strong>{% if post.content.size > 1 %}<a href="{{ site.baseurl }}{{ post.url }}">{% include dynamic_text.html %}</a>{% else %}{% include dynamic_text.html %}{% endif %}</strong>
       <small>
         <!-- Handle post links and tags -->
-        {% assign list_array_str = "arxiv & fa fa-file-text-o, video & fa fa-video-camera, slides & fa fa-file-powerpoint-o,  link & fa fa-link" %}
+        {% assign list_array_str = "arxiv & fa fa-file-text-o, publication & fa fa-file-text-o, video & fa fa-video-camera, slides & fa fa-file-powerpoint-o,  link & fa fa-link" %}
         {% assign list_array_simple_str = "info & fa fa-info" %}
         {% include post_tags.html %}
       </small>

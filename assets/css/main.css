@@ -1253,8 +1253,8 @@ footer .copyright {
   content: "("
 } */
 
-.dynamic-text-short:after {
-  content: " - "
+.dynamic-text-full:before {
+  content: " \2014  "
 }
 a.older-posts, a.newer-posts {
   font-size: 18px;
@@ -1656,7 +1656,7 @@ a.newer-posts:hover {
   }
 
   .dynamic-text-full {
-    display: none;
+    /* display: none; */
   }
 
   .dynamic-text-short {

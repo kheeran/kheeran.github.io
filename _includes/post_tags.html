@@ -7,9 +7,13 @@
     {% assign key = list[0] %}
     {% assign key_text = list[0] %}
     {% assign icon = list[1] %}
-    {% if key == 'arxiv' and post[key] == false and post.publication %}
-    {% assign key = 'publication' %}
-    {% if post.book_series %}{% assign key_text = post.book_series %}{% endif %}
+    {% if key == 'publication'%}
+    {% assign key_text = post.book_series %}
+    {% if post.book_series %}
+    {% assign key_text = post.book_series %}
+    {% else %}
+    {% assign key_text = "publ." %}
+    {% endif %}
     {% endif %}
     {% if post[key] %} &nbsp; <a href="{{ post[key] }}" target="_blank"><i class="{{ icon }}"></i>&nbsp;{{ key_text }}</a>{% endif %}
     {% endfor %}
