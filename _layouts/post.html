@@ -23,7 +23,9 @@ layout: main
         {% assign dynamic_text_short = page.title_short %}
         <h1 class="page-title">{% include dynamic_text.html %}</h1>
         <div class="page-subtitle"><span>{{ page.subtitle }}</span></div>
-        <div class="page-date"><span>{{ page.year }}</span></div>
+        {% assign dynamic_text_full = page.description %}
+        {% assign dynamic_text_short = page.description_short %}
+        <div class="page-date"><span>{% include dynamic_text.html %}</span></div>
         <div class="page-details">
           <!-- Handle external links -->
           {% for tuple_str in tuple_array %}
