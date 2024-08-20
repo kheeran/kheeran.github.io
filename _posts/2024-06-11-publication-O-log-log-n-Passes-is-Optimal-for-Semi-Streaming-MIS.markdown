@@ -9,7 +9,7 @@ description_short: STOC 2024
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2312.13178
-publication: False
+publication: https://dl.acm.org/doi/10.1145/3618260.3649763
 book: Proceedings of the 56th Annual ACM Symposium on Theory of Computing
 book_series: ACM
 video: False
