@@ -2,16 +2,16 @@
 layout: post
 
 title: Settling the Pass Complexity of Approximate Matchings in Dynamic Graph Streams
-year: 2024
+year: 2025
 subtitle: with <a href="https://sepehr.assadi.info/" target="_blank">Sepehr Assadi</a>, <a href="http://behnezhad.com/" target="_blank">Soheil Behnezhad</a>, <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>, <a href="https://student.cs.uwaterloo.ca/~jsundare/" target="_blank">Janani Sundaresan</a>
-description: Preprint
-description_short: arXiv
+description: Proceedings of the 36th ACM-SIAM Symposium on Discrete Algorithms
+description_short: SODA 2025
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2407.21005
 publication: False
-book: 
-book_series:
+book: Proceedings of the 36th ACM-SIAM Symposium on Discrete Algorithms
+book_series: SIAM
 video: False
 slides: False
 poster: False
