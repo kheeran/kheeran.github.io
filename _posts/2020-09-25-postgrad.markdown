@@ -2,9 +2,11 @@
 layout: post
 
 title: PhD in Computer Science
-year: 2020-present
+year: 2020-2024
 subtitle: Algorithms and Complexity Group, University of Bristol
 description: Supervised by <a href="http://www.christiankonrad.de/" target="_blank">Christian Konrad</a>
 info: https://bristolalgo.github.io/
 tags: [Education]
+publication: /assets/attachments/PhD-Thesis.pdf
+book_series: Thesis
 ---
