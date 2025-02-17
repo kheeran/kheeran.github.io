@@ -9,7 +9,7 @@ description_short: SODA 2025
 tags: [Publications]
 latex: True
 arxiv: https://arxiv.org/abs/2407.21005
-publication: False
+publication: https://epubs.siam.org/doi/10.1137/1.9781611978322.25
 book: Proceedings of the 36th ACM-SIAM Symposium on Discrete Algorithms
 book_series: SIAM
 video: False

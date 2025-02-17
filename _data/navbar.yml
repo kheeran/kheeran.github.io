@@ -2,6 +2,10 @@ Home:
   name: Home
   icon: fa fa-home
   link: ""
+About:
+  name: About
+  icon: fa fa-user
+  link: about
 full_cv:
   name: CV
   icon: fa fa-file

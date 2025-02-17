@@ -1,5 +1,5 @@
 title: Kheeran K. Naidu
-description: A PhD student under the supervision of Dr. Christian Konrad at the University of Bristol. My current research interest is in the design and analysis of streaming algorithms for graphs.
+description: My current research interest is broadly in the design and analysis of algorithms for processing massive datasets. I obtained my PhD in Computer Science at the University of Bristol under the supervision of Christian Konrad. During this time, I tackled graph problems in the data streaming setting.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kheerannaidu.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -15,7 +15,7 @@ social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: # add your Github handle
 social-linkedin: kheeran # add your Linkedin handle
-social-email: kheeran.naidu@bristol.ac.uk # add your Email address
+social-email: kheeran.naidu@gmail.com # add your Email address
 
 # Disqus
 disqus-identifier: False # add your discus identifier
